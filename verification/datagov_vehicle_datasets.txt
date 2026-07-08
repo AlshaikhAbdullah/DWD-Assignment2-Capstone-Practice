@@ -1,0 +1,80 @@
+d_0578d4dc6fc8cfa99e96c43ce3021e9d | Direct Requirement Coefficients (Supply, Use and Input-Output Tables 2012)
+d_06c3969c73ac5ba2d059cf39491ce048 | New Registration of Motor Vehicles Under Vehicle Quota System (VQS)
+d_0c4f0d2d9f99c20124cbb52ef83ad6df | Vehicles Involved In Road Traffic Accidents (Fatal And Injury) By Type Of Vehicle, Annual
+d_11af4cacfdd459f8712fb903b1639d98 | Monthly Revalidation of COE
+d_1332f905376c3848bdcc032423ca5563 | Motor Vehicles De-registered under Vehicle Quota System (VQS)
+d_172735b7bf23194623697748d8050846 | Total Requirement Coefficients (Supply, Use and Input-Output Tables 2010)
+d_19578cfd7ae9e83c85cf375bceba2ae0 | Direct Requirement Coefficients (Supply, Use and Input-Output Tables 2017)
+d_1ed5455eae3ccef5d487acb3b2d34b6f | Annual New Registration of Motorcycles by Make
+d_206838bdc92c07ab495af49475563da5 | Motor Vehicle Population By Type Of Vehicle (End Of Period), Monthly
+d_22094bf608253d36c0c63b52d852dd6e | Motor Vehicle Quota, Quota Premium And Prevailing Quota Premium, Monthly
+d_2620d9f92656afc0f0a0f0ab2f320406 | Age Distribution of Motor Vehicles
+d_2873f3b1b2a836103f51f696350b98fa | Annual Motor Vehicle Population by Vehicle Type
+d_2ecb009f1e1ec5a816a454944dec4022 | Monthly Motor Vehicle Population by Vehicle Type
+d_31340a92d8b5893b344eecb644b495a8 | Direct Requirement Coefficients (Supply, Use and Input-Output Tables 2021)
+d_33777ba2cc9652ea1b85b9438480a3c1 | Annual Age of Goods Vehicles
+d_3b09bdd651a4677b0ce4a91c7ee552ae | Total Requirement Coefficients (Supply, Use and Input-Output Tables 2021)
+d_3cc040c8723e9ad937388683e302d01c | Total Requirement Coefficients In Terms Of Value Added (Supply, Use and Input-Output Tables 2014)
+d_3e182eb6d9d7eb78addb26a9c7179204 | Annual Motorcycle Population by CC Rating
+d_4a0f34475442b4e36032ef7ade4ff412 | Total Requirement Coefficients In Terms Of Value Added (Supply, Use and Input-Output Tables 2016)
+d_4a239b531be8dfa9d21974d23b0c021d | Total Annual New Registration of Goods Vehicles (GVs) by Make
+d_4a2e5e467b202281f27494a9c954577c | Total Requirement Coefficients In Terms Of Value Added (Supply, Use and Input-Output Tables 2013)
+d_4f89ebe150e14708bbc5dc627dd56ab4 | Total Requirement Coefficients In Terms Of Value Added (Supply, Use and Input-Output Tables 2017)
+d_529752a3d78beb78bd4f38e3be37f1b6 | New Registration Of Motor Vehicles Under Vehicle Quota System, Monthly
+d_536e79e6666e1cd908b71ee6b8f360bc | Total Requirement Coefficients (Supply, Use and Input-Output Tables 2015)
+d_538f64d9c312e053c82e8d1e75cf3c56 | Duty-Paid Releases Of Tobacco, Petroleum, Compressed Natural Gas And Motor Vehicles, Monthly
+d_5476972948a18ca04ae24dd2102eefd7 | Direct Requirement Coefficients (Supply, Use and Input-Output Tables 2010)
+d_554d170728f7608980ce8a5a2ad276c2 | Import Requirement Coefficients (Supply, Use and Input-Output Tables 2012)
+d_5a32a72cbc741ecfda152c20677f0f3d | Quarterly Deregistration of Vehicle Population
+d_5e5c2fa3ec41618eb7c17fc14b2be70b | Climate Change and Energy - Green Vehicles
+d_627cfa46ec1e5f2dbc57177f5aec9144 | Industrial Output By Imports, Taxes On Products And Primary Inputs In Coefficient Form (Supply, Use and Input-Output Tables 2013)
+d_68593e2170886a2f2717801be7903347 | Total Requirement Coefficients (Supply, Use and Input-Output Tables 2012)
+d_69b3380ad7e51aff3a7dcc84eba52b8a | COE Bidding Results / Prices
+d_6d17bea209857f171775da6724da2a25 | Total Requirement Coefficients (Supply, Use and Input-Output Tables 2019)
+d_6e50d957520951abb4083d2b2bd0ae90 | Motor Vehicle De-registration under Vehicle Quota System (VQS)
+d_71ce745d4e4ea9cd2fea0fdf46412fc8 | Annual Revalidation of Certificate of Entitlement (COE) of Existing Vehicles
+d_751611722477bcade28ba8ceac0f06bd | Industrial Output By Imports, Taxes On Products And Primary Inputs In Coefficient Form (Supply, Use and Input-Output Tables 2012)
+d_789003a0a0eb3801666798be0652e6a7 | Primary Input Requirement Coefficients Of Final Demand (Supply, Use and Input-Output Tables 2015)
+d_7a0847fef60362e46e59d0f844c938ba | Annual Motor Vehicle Population by Type of Fuel Used
+d_86bb6c042ec0b1269fe0de79cff61121 | New Registration of Goods Vehicles & Buses by Make
+d_8a3216bd5ae98a287f3cb297706e9d80 | Annual Motor Vehicle Inspection - Passing Rate of Motor Vehicles on First Inspection
+d_8a52215307f3b771b8cee7a16d7be0b1 | Total Requirement Coefficients In Terms Of Value Added (Supply, Use and Input-Output Tables 2012)
+d_8d709c921ed55857b5d19ab75f73882c | Direct Requirement Coefficients (Supply, Use and Input-Output Tables 2014)
+d_90fc4da9027316ea5d8d553fbf132b15 | Primary Input Requirement Coefficients Of Final Demand (Supply, Use and Input-Output Tables 2010)
+d_914bfd56bed26ba7d860557ea3e664a1 | Direct Requirement Coefficients (Supply, Use and Input-Output Tables 2013)
+d_93b6e9adc1e20331daf306b92cdc67df | Total Requirement Coefficients In Terms Of Value Added (Supply, Use and Input-Output Tables 2010)
+d_9b09ee04bbbce9b10702abd048a5fb8a | Number of Motor Accident Compensation Cases administered by the Public Trustee
+d_9d7e0851c0eb6b48e2e3ca112ba548e9 | Total Requirement Coefficients In Terms Of Value Added (Supply, Use and Input-Output Tables 2021)
+d_9dd66cc15a8d3291625b176b1908773c | Total Requirement Coefficients (Supply, Use and Input-Output Tables 2017)
+d_a3723e7308f973f89bdf32105f50f454 | Total Requirement Coefficients (Supply, Use and Input-Output Tables 2016)
+d_aa457c0abaacccefd238c31cfed211d9 | Motor Vehicle Population By Type Of Vehicle (End Of Period), Annual
+d_acdc15603a325dd5fed6f596650ada72 | Direct Requirement Coefficients (Supply, Use and Input-Output Tables 2019)
+d_b1418d258cea8f661dc387a518bc9e61 | Total Requirement Coefficients (Supply, Use and Input-Output Tables 2014)
+d_b7a244b756d5b1b53bc41cace4ef3faa | Import Requirement Coefficients (Supply, Use and Input-Output Tables 2013)
+d_b876ece1b4a3bb5ebdc33c4394a236a2 | Motor Vehicle Population Statistics by Type of Fuel Used
+d_bc5000f7e912a412da1ddafa593ae826 | Import Requirement Coefficients (Supply, Use and Input-Output Tables 2014)
+d_bdc4c6434e47b055de4b5f2fde10c1af | Average Annual Kilometres Travelled Per Vehicle
+d_be399e1e9887080e075da1d13f807fc3 | Annual Age Distribution of Motorcycles
+d_c3554f7ccbe35b7c207db3dcb7b0ac33 | Total Requirement Coefficients (Supply, Use and Input-Output Tables 2013)
+d_c64b233e5aaeb5b1de63395566800cd7 | Total Requirement Coefficients In Terms Of Value Added (Supply, Use and Input-Output Tables 2015)
+d_c96f6cf4249faf29878b454172374658 | Monthly Type and Number of Vehicles Transferred
+d_cc30f50369bcd6b6f848a586bded2290 | Annual Motor Vehicle Population by Vehicle Quota Categories
+d_ccf955c3647b52732fefc29d31662cf9 | Industrial Output By Imports, Taxes On Products And Primary Inputs In Coefficient Form (Supply, Use and Input-Output Tables 2014)
+d_d12f91d271d9368bfccdf072823b015d | Primary Input Requirement Coefficients Of Final Demand (Supply, Use and Input-Output Tables 2017)
+d_d520d6034b5e0c4f883b4e480de28f97 | Motor Vehicles De-Registered Under Vehicle Quota System, Monthly
+d_d94cf5d839fc11a144f24ef971705d3e | New Registration Of Motor Vehicles Under Vehicle Quota System , Monthly
+d_db7254f4ebab5b5f92a3443e3032ac3c | Primary Input Requirement Coefficients Of Final Demand (Supply, Use and Input-Output Tables 2016)
+d_e530c5bdab571ea2e1f77d1a1a114e76 | Goods and Other Vehicle Population by Type of Body and Maximum Laden Weight
+d_ec9ffe7a75250313f75a4992fac4d36e | Primary Input Requirement Coefficients Of Final Demand (Supply, Use and Input-Output Tables 2021)
+d_edd242b474a7d040de2cf3a227978054 | Annual Type and Number of Motor Vehicles Transferred
+d_ede1a559013d10f234d209ac5e9fd9b4 | Motor Vehicle Population Under Vehicle Quota System, (As At End Of Period), Monthly
+d_f25d005b5dc4807dceb12a670f6f7ab4 | All motorcycles including scooters registered in Singapore. Figures include all road tax e
+d_f4d06bc89cb08256784504a1b258a0a8 | Primary Input Requirement Coefficients Of Final Demand (Supply, Use and Input-Output Tables 2019)
+d_f4e3d94e4a12815ff8cbae22da17d4ba | Direct Requirement Coefficients (Supply, Use and Input-Output Tables 2015)
+d_f52d6995ea85ad8d5088906d7a24d5df | New Registration of Motor Vehicles under Vehicle Quota System (VQS)
+d_f8408eaf8ecf45adae760a035b8d850d | Quarterly New Registration of Vehicle Population
+d_f8876e8c0959ba5bcfa2c40cf6d25dab | Motor Vehicle Population under Vehicle Quota System
+d_f9fc45b610aa9d100db3abef789e3ef5 | Annual Goods Vehicle and Bus Population By Make
+d_fa1437a12db52d7a741f8fa0f5e7d1bf | Total Requirement Coefficients In Terms Of Value Added (Supply, Use and Input-Output Tables 2019)
+d_fc434dc400c47e0cb2cfd2207f36f655 | Direct Requirement Coefficients (Supply, Use and Input-Output Tables 2016)
+d_fe26308684617c9577d577fe795f6e85 | Licensed Premises for Motor Vehicles
