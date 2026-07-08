@@ -78,10 +78,10 @@ exit code: 1
 
 ## Open questions surfaced by this checkpoint (decisions for the tech lead)
 
-- **GCP project id** — which project? (`msbai-…` reuse vs. fresh.)
-- **BigQuery dataset location** — `US` (default) vs. `asia-southeast1` (Singapore).
-  The check script defaults to `US` via `BQ_LOCATION`; this should be decided before
-  the dataset is created, because location cannot be changed later.
+- ~~**GCP project id**~~ **DECIDED 2026-07-08:** `msbai-dwd-aa13072` (reuse; new dataset `sg_elv`).
+- ~~**BigQuery dataset location**~~ **DECIDED 2026-07-08:** `US` (multi-region) — immutable,
+  chosen for cross-dataset join compatibility; no residency requirement on public
+  aggregate data. Matches the check script's `BQ_LOCATION` default.
 - **data.gov.sg resource ids** — deliberately not assumed (per PROJECT_BRIEF §3). Once
   the host is reachable, verify the exact resource ids for the three LTA series and
   record them in `CLAUDE.md` before any pipeline code.
