@@ -109,3 +109,56 @@ may need a (free) subscription key — flagged, not yet needed.
 | LTA annual statistics PDF (reconciliation + disposal split) | **unverified** — not fetched |
 | Comtrade full extract (monthly, quantity units, partner detail) | preview verified; full pull **not done** (no loading) |
 | LME prices, material composition | **unverified** — CP C scope |
+
+---
+
+## 5. Post-approval refinement checks (2026-07-08, second pass)
+
+### Category E — resolved empirically (scope stays A + B)
+
+- **No flow series has a Category E row.** Full row inventory of the canonical
+  monthly series: dereg = Total, Cat A, Cat B, Weekend/Off-Peak, Cat C, Cat D,
+  Taxis, Exempt (8 rows); new reg adds only the two Cat C ETS sub-splits (10 rows).
+- **Checksum: Σ(categories) = published Total, 0 violations across all 72
+  series-months of 2023–2025** (12 months × 3 years × 2 series) — so there is no
+  hidden residual bucket where E-registered vehicles could sit. Category E is
+  bidding-only; once exercised, the vehicle is recorded under its actual
+  category (cars → A/B).
+- The `Weekend Cars/Off Peak Cars` row is `na` throughout 2023–2025; LTA's
+  yearly PDF (footnote 1) confirms WE/OP cars are folded into the category
+  columns. Car scope therefore = **Cat A + Cat B**, plus the historical WE/OP
+  row for early months where it is populated.
+- Car share of deregistrations: 2023 **58.3%** (29,089/49,895), 2024 **65.9%**
+  (36,137/54,866), 2025 **70.0%** (49,550/70,748).
+
+### LTA published split — NOT AVAILABLE (three sources exhausted)
+
+1. **LTA statistics PDFs** (lta.gov.sg, reachable): `MVP05-1_Dereg_by_COE.pdf`
+   ("Annual Vehicle Statistics 2025") = years × COE categories only;
+   `M05` (monthly) and `M06B` (quarterly reg/dereg/pop by vehicle type) likewise
+   carry **no disposal/scrap/export dimension**.
+2. **data.gov.sg**: 80-dataset catalog scan — nothing by name; all dereg
+   dataset columns and category values scanned — nothing.
+3. **SingStat Table Builder API** (reachable): keyword searches `scrapped` (0),
+   `deregistered` (0), `vehicles exported` (0), `de-registered` (1 — the same
+   VQS series). No disposal-split table.
+
+**Bonus reconciliation (evidence for Part 1):** the MVP05-1 PDF's yearly totals
+match the API monthly sums **exactly** for 2023 (49,895), 2024 (54,866) and
+2025 (70,748) — per-category too.
+
+### Comtrade ratio check — confirms overstatement risk
+
+`GET https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=702&period=YYYY&cmdCode=8703&flowCode=X&partnerCode=0`
+
+| Year | HS 8703 export units (SG-reported) | Car dereg (A+B) | Ratio |
+|---|---|---|---|
+| 2023 | 38,076 | 29,089 | **1.31** |
+| 2024 | 34,769 | 36,137 | **0.96** |
+| 2025 | qty = 0 (unusable; netWgt 19,066 t, FOB $412M) | 49,550 | n/a |
+
+Exports *exceed* total car deregistrations in 2023 → raw HS 8703 includes
+re-exported new cars and cannot be read as a clean used-ELV split. Per the
+approved decision it is treated as a **bounded upper estimate, low confidence
+tier**. The 2025 zero-quantity row is a Comtrade data-quality flag (weight and
+value present, units missing) — to be handled explicitly at load time.
