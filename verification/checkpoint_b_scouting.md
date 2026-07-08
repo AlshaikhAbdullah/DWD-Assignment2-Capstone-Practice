@@ -65,13 +65,13 @@ keywords. **None found.** The actual columns are, exhaustively:
   Private Hire…), still **no disposal channel**.
 
 Also: no dataset in the 80-item full-catalog scan has export/scrap/disposal in
-its *name*. LTA publishes the disposal split (COE rebate statistics distinguish
-exported vs. scrapped-at-ATF) in its annual publication, not on data.gov.sg.
+its *name*. ~~LTA publishes the disposal split in its annual publication~~ —
+**corrected by §5**: the LTA statistical publications were fetched and checked;
+they do NOT carry the split either.
 
-**Consequence — decision for Abdullah:** the exported-vs-scrapped split must
-come from outside data.gov.sg. Proposed: **UN Comtrade triangulation** (already
-allowlisted), with the LTA annual publication PDF as a reconciliation
-spot-check if we can locate the disposal table in it.
+**Consequence:** the exported-vs-scrapped split must come from outside
+data.gov.sg — resolved in §5 (decided 2026-07-08): Comtrade HS 8703 as a
+bounded upper estimate, low confidence tier.
 
 **Comtrade viability — VERIFIED live (2026-07-08):**
 `GET https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=702&period=2023&cmdCode=8703&flowCode=X`
@@ -106,8 +106,8 @@ may need a (free) subscription key — flagged, not yet needed.
 | Item | Status |
 |---|---|
 | COE bidding results `d_69b3380ad7e51aff3a7dcc84eba52b8a` | resolves (CP A scan) but columns/grain **not probed** — needed for projection at CP C, not B |
-| LTA annual statistics PDF (reconciliation + disposal split) | **unverified** — not fetched |
-| Comtrade full extract (monthly, quantity units, partner detail) | preview verified; full pull **not done** (no loading) |
+| LTA annual statistics PDF (reconciliation + disposal split) | ~~unverified~~ **VERIFIED in §5** — reconciles exactly 2023–2025; carries no disposal split |
+| Comtrade full extract (monthly, quantity units, partner detail) | preview + yearly world-aggregate verified (§5); full pull **not done** (no loading) |
 | LME prices, material composition | **unverified** — CP C scope |
 
 ---
