@@ -46,6 +46,11 @@
 - `elv_material_value` — **grain (year, material)** — `tonnes_recovered`, `price_per_tonne_usd`, `value_usd`, `confidence_tier`.
 - **Why layers:** land raw so we can replay/re-clean without re-fetching; clean in a view so a parse bug costs a query, not a reload.
 
+### Clean-layer rules — locked 2026-07-08 (Abdullah), proven in `verification/part1_raw_clean_checks.md`
+- **Parent/child taxonomy:** `Public Motor Cars` (pre-1988Dec parent) and `Private Hire Cars`+`Taxis` (children) must **never enter the same sum**. One representation per era — parent rows only before 1988-12, child rows only from 1988-12 (the proven overlap month: 13,613 = 3,140 + 10,473). Committed check: reconstructed Σ(types) = Total, 0 violations across all 772 months including the boundary.
+- **Suppressed cells:** `'-'`/`na` are carried **verbatim in `raw_*`** and become **NULL in clean `units`**. A checksum-derived value may surface **only** in the separate `units_derived` column, only for source-suppressed (`'-'`) cells that are the single suppressed cell of their (series, month) with Total present, with the formula recorded in `derivation`. **Never silently imputed.** (Exactly one such cell exists: dereg 2002Sep cat_d = 1,422.)
+- **Raw format note:** BigQuery column names cannot start with a digit, so the wide month columns (`2026Apr`, …) cannot be literal columns; `raw_*` carries each source record verbatim as a JSON string (`raw_record`) plus provenance (`_resource_id`, `_source_url`, `_source_file`, `_fetched_at_utc`, `_sha256`, `_loaded_at`). Content-equality with the landed files is checked per load.
+
 ### Canonical source resource ids (verified live 2026-07-08; see `verification/checkpoint_b_scouting.md`)
 - New registrations (monthly, wide, 1990-05→): `d_d94cf5d839fc11a144f24ef971705d3e`
 - Deregistrations (monthly, wide, 1990-05→): `d_d520d6034b5e0c4f883b4e480de28f97`
