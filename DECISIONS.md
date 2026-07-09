@@ -95,6 +95,27 @@ only field spanning all of 2005–2025, and **no stage may compare FOB dollars
 to vehicle counts on the same axis** — value-only years are **labeled
 context, not a series**.
 
+**Deregistration = permanent removal — confirmed 2026-07-09.** LTA's own
+definition (OneMotoring, fetched): deregistration cancels the registration
+and REQUIRES disposal — scrapping, export, or EPZ-pending-export — with
+proof within 1 month; keeping or using a deregistered vehicle is an offence.
+Temporary "Vehicle Lay-Up" is a separate *Owning* scheme in which the car
+stays registered and never enters the deregistration series. Empirically:
+status/scheme changes appear in our stock-flow residuals as within-month
+category transfers, never as dereg+re-reg events. The ELV-generation
+headline (deregistrations = permanent removals) stands. Known bounded
+revision channel: 1-month COE revalidation grace (MVP05-1 footnote 6).
+Evidence: `verification/layer4_scenario_construction.md` §0.
+
+**Layer 4 construction — locked 2026-07-09.** Scenario band per
+(year, scrap-share scenario, material): assumed share axis (5–50%) with the
+2024 disposal-split floor (3.79%) as a lower-bound anchor INSIDE the band;
+verified factors: car deregistrations + Al/Cu prices (landed World Bank CMO
+Pink Sheet, LME cash); unverified-labeled: curb weight, material fractions,
+steel-scrap price (placeholders PENDING CITATION). No point-estimate column
+exists; checks enforce strict low<mid<high. Input provenance:
+`data/reference/material_value_inputs.csv`.
+
 ## Why trustworthy — and where not
 
 | Layer | Trust basis | Where it breaks |
