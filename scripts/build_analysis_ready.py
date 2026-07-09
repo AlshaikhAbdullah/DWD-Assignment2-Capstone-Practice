@@ -82,6 +82,14 @@ SELECT
   IF(exported_units_comtrade IS NOT NULL
      AND deregistrations_total - exported_units_comtrade >= 0,
      deregistrations_total - exported_units_comtrade, NULL) AS scrapped_est_residual,
+  -- The export proxy is an UPPER bound on used-car exports (new-car
+  -- re-export contamination — the same effect that pushes 2023 above total
+  -- deregistrations), so the residual is a FLOOR: true domestic scrapping is
+  -- likely higher. Downstream stages must not read it as a clean count.
+  IF(exported_units_comtrade IS NOT NULL
+     AND deregistrations_total - exported_units_comtrade >= 0,
+     'lower_bound', NULL) AS scrapped_bound_direction,
+  IF(exported_units_comtrade IS NOT NULL, 'upper_bound', NULL) AS export_bound_direction,
   IF(exported_units_comtrade IS NOT NULL,
      ROUND(exported_units_comtrade / deregistrations_total, 3), NULL) AS export_proxy_ratio,
   exported_units_comtrade IS NOT NULL
@@ -100,6 +108,17 @@ FROM joined
 """
 
 
+COLUMN_DESCRIPTIONS = f"""
+ALTER TABLE `{P}.{D}.elv_disposal_split`
+  ALTER COLUMN scrapped_est_residual SET OPTIONS (description =
+    'LOWER BOUND (floor), low confidence - NOT a point estimate. Residual of an export proxy that is itself an UPPER bound on used-car exports (Comtrade HS 8703 includes new-car re-exports; in 2023 the proxy exceeds total car deregistrations). True domestic scrapping is likely higher. See scrapped_bound_direction and DECISIONS.md.'),
+  ALTER COLUMN exported_units_comtrade SET OPTIONS (description =
+    'UPPER bound on used-car exports: raw Comtrade HS 8703 export units include new-car re-exports. Emitted only for qty-available years in the locked cross-check scope (2023, 2024).'),
+  ALTER COLUMN scrapped_bound_direction SET OPTIONS (description =
+    'lower_bound where scrapped_est_residual is present - downstream stages must treat the value as a floor, never a clean count.')
+"""
+
+
 def main():
     for name, sql in [("fact_vehicle_flows", FACT_VEHICLE_FLOWS),
                       ("fact_population_by_type", FACT_POPULATION_BY_TYPE),
@@ -110,6 +129,8 @@ def main():
         bq.query(sql)
         n = bq.query(f"SELECT COUNT(*) AS n FROM `{P}.{D}.{name}`")[0]["n"]
         print(f"built {D}.{name}: {n} rows  (sql/{name}.sql)")
+    bq.query(COLUMN_DESCRIPTIONS)
+    print("applied column descriptions on elv_disposal_split (bound semantics)")
 
 
 if __name__ == "__main__":

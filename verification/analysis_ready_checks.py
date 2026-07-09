@@ -111,6 +111,16 @@ def main():
           f"dereg={r24['deregistrations_total']} − exported={r24['exported_units_comtrade']} "
           f"= scrapped_est {r24['scrapped_est_residual']} (ratio {r24['export_proxy_ratio']})")
 
+    bounds = bq.query(f"""SELECT year, scrapped_bound_direction, export_bound_direction
+                          FROM `{P}.{D}.elv_disposal_split`
+                          WHERE scrapped_est_residual IS NOT NULL
+                             OR exported_units_comtrade IS NOT NULL ORDER BY year""")
+    check("bound directions labeled: residual is a lower-bound FLOOR, proxy an upper bound",
+          all(r["export_bound_direction"] == "upper_bound" for r in bounds)
+          and [r["scrapped_bound_direction"] for r in bounds] == [None, "lower_bound"],
+          f"{[(r['year'], r['scrapped_bound_direction'], r['export_bound_direction']) for r in bounds]} "
+          "(2023 has no scrap floor — proxy exceeds total; 2024 floor=1,368)")
+
     ctx = [r for r in rows if r["exported_units_comtrade"] is None]
     check("value-only years are context, not a series",
           all(r["method"] == "no_countable_export_proxy" and r["confidence_tier"] == "context_only"

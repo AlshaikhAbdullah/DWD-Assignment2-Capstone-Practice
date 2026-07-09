@@ -32,6 +32,14 @@ SELECT
   IF(exported_units_comtrade IS NOT NULL
      AND deregistrations_total - exported_units_comtrade >= 0,
      deregistrations_total - exported_units_comtrade, NULL) AS scrapped_est_residual,
+  -- The export proxy is an UPPER bound on used-car exports (new-car
+  -- re-export contamination — the same effect that pushes 2023 above total
+  -- deregistrations), so the residual is a FLOOR: true domestic scrapping is
+  -- likely higher. Downstream stages must not read it as a clean count.
+  IF(exported_units_comtrade IS NOT NULL
+     AND deregistrations_total - exported_units_comtrade >= 0,
+     'lower_bound', NULL) AS scrapped_bound_direction,
+  IF(exported_units_comtrade IS NOT NULL, 'upper_bound', NULL) AS export_bound_direction,
   IF(exported_units_comtrade IS NOT NULL,
      ROUND(exported_units_comtrade / deregistrations_total, 3), NULL) AS export_proxy_ratio,
   exported_units_comtrade IS NOT NULL
