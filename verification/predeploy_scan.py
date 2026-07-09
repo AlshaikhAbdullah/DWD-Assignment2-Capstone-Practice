@@ -163,6 +163,19 @@ def rule_value_band_ties_to_table(data):
         ok("band-ties-to-table", f"continuous band reproduces material_value at all {checked} committed scenarios")
 
 
+def rule_no_stray_markup(states):
+    """No HTML comments or raw markup may reach the page: Streamlit markdown
+    does NOT strip '<!-- -->', so anything markup-like in a rendered string
+    shows up as visible text (this bit us live: claim-ref comments rendered
+    on the trust strip). Claim refs belong in Python comments only."""
+    bad = [(sid, re.findall(r"<!--|-->|</?\w+[^>]*>", t))
+           for sid, t in states if re.search(r"<!--|-->|</?\w+[^>]*>", t)]
+    if bad:
+        fail("no-stray-markup", f"markup in rendered text: {bad}")
+    else:
+        ok("no-stray-markup", "no HTML comments or tag-like markup in any rendered state")
+
+
 def rule_value_gated(app_src):
     """The dollar sentence must be behind an explicit interaction and inside
     the collapsed expander (no headline dollar on landing)."""
@@ -194,6 +207,7 @@ def main():
     rule_no_broken_export_counts(data, states, app_src)
     rule_value_band_ties_to_table(data)
     rule_value_gated(app_src)
+    rule_no_stray_markup(states)
 
     print()
     if FAILURES:
