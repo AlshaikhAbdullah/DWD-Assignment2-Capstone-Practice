@@ -33,25 +33,35 @@
 
 ### Data sources — **verify each is reachable before trusting it**
 - **data.gov.sg** (CKAN `datastore_search` API) — LTA monthly new registrations, monthly deregistrations, annual vehicle population by type; COE data. *Primary raw source.*
-- **LTA "Statistics in Brief" / annual stats (PDF)** — published annual totals. *Reconciliation target.*
-- **UN Comtrade (HS 8703)** — Singapore used-vehicle export volumes. *Triangulate the export stream.*
+- **LTA annual stats (PDF, lta.gov.sg)** — published annual totals. *Reconciliation target — VERIFIED 2026-07-08: MVP05-1 yearly dereg PDF matches API sums exactly for 2023–2025. Carries NO scrapped-vs-exported split (checked).*
+- **UN Comtrade (HS 8703)** — Singapore car export volumes. *Bounded upper estimate of the export stream (includes new-car re-exports) — VERIFIED reachable, keyless preview.*
 - **LME** — steel/aluminium/copper prices. *Material value at risk.*
 - **ELV material composition** (literature) — curb weight + material fractions. *Modeled → label `unverified`.*
 
-### Canonical schema & grain (in dataset `sg_elv`)
-- **Layers:** `landing/` (raw untouched, timestamped) → `raw_*` tables (as-is, one per series) → `clean_vehicle_flows` (view: parsed, typed, taxonomy reconciled, months aligned) → analysis-ready tables below.
-- `fact_vehicle_flows` — **grain (month, vehicle_type)** — `new_registrations`, `deregistrations`, `deregistrations_exported`, `deregistrations_scrapped`, `vehicle_population`.
+### Canonical schema & grain (in dataset `sg_elv`) — *approved 2026-07-08 (Abdullah, PR #2)*
+- **Layers:** `data/landing/` in the repo (raw untouched CKAN JSON, KB-scale; **source URL + fetch timestamp recorded per file**) → `raw_*` tables (as-is, one per series, wide stays wide) → `clean_vehicle_flows` (view: unpivot wide→long, trim `DataSeries` whitespace, `na`→NULL, taxonomy mapped; **Σcategories = embedded Total rows checked as a per-period checksum before Totals are dropped from facts**) → analysis-ready tables below.
+- `fact_vehicle_flows` — **grain (month, quota_category)** — `new_registrations`, `deregistrations`, `vehicle_population` (VQS stock). Native shared grain of the three canonical monthly series; export/scrap split does NOT exist at monthly grain in any source, so it lives in the yearly table below, not here.
+- `fact_population_by_type` — **grain (month, vehicle_type)** — the 1962→present stock series; context + type↔category bridge.
+- `elv_disposal_split` — **grain (year, scope)** — `deregistrations_total`, `exported_units_comtrade`, `scrapped_est`, `export_share`, `method`, `confidence_tier`. Comtrade-derived → **bounded upper estimate, low confidence tier** (see export-share decision).
 - `elv_material_value` — **grain (year, material)** — `tonnes_recovered`, `price_per_tonne_usd`, `value_usd`, `confidence_tier`.
 - **Why layers:** land raw so we can replay/re-clean without re-fetching; clean in a view so a parse bug costs a query, not a reload.
+
+### Canonical source resource ids (verified live 2026-07-08; see `verification/checkpoint_b_scouting.md`)
+- New registrations (monthly, wide, 1990-05→): `d_d94cf5d839fc11a144f24ef971705d3e`
+- Deregistrations (monthly, wide, 1990-05→): `d_d520d6034b5e0c4f883b4e480de28f97`
+- Population VQS stock (monthly, wide, 1990-05→): `d_ede1a559013d10f234d209ac5e9fd9b4`
+- Population by vehicle type (monthly, wide, 1962-01→): `d_206838bdc92c07ab495af49475563da5`
 
 ### Infrastructure decisions
 - **GCP project: `msbai-dwd-aa13072`** — reuse existing project; new dataset `sg_elv`. *Decided 2026-07-08 (Abdullah).*
 - **BigQuery dataset location: `US` (multi-region)** — immutable once created; chosen for cross-dataset join compatibility; no data-residency requirement since all data is public and aggregate. *Decided 2026-07-08 (Abdullah).*
 
-### Scope decisions (fill in as we make them)
-- Vehicle scope for v1: **[OPEN]** cars/passenger only vs. include motorcycles/goods.
-- Export-share method: **[OPEN]** native LTA field vs. Comtrade triangulation.
-- Projection horizon + model: **[OPEN]** 2030/2035; cohort-survival vs. gradient-boosting.
+### Scope decisions
+- **Vehicle scope v1: cars = Category A + Category B** (+ the historical `Weekend Cars/Off Peak Cars` row for months where it is populated). *Decided 2026-07-08.* Reason: Category E is a **bidding-only** category — no flow series carries an E row, and Σ(7 categories) = published Total with **0 violations across 72 series-months (2023–2025)**, so there is no hidden E bucket; E-COE cars are already recorded inside A/B. LTA's own yearly table footnote confirms WE/OP cars are folded into the category columns (the API's WE/OP row is `na` from the 2000s on). Cars are 58–70% of deregistrations 2023–2025.
+- **Export-share method: Comtrade HS 8703 as a bounded UPPER estimate, low confidence tier.** *Decided 2026-07-08.* The LTA scrapped-vs-exported split is **not published in any reachable machine-readable or statistical-PDF source** — exhaustively checked: 80-dataset data.gov.sg scan (names + columns + category values), LTA yearly/monthly/quarterly dereg PDFs (MVP05-1, M05, M06B: COE categories only), SingStat table search (`scrapped`/`deregistered`/`vehicles exported` → 0 relevant tables). Raw HS 8703 includes **re-exported new cars** and therefore overstates used-ELV exports: Comtrade export units vs. car (A+B) deregistrations = **1.31 (2023), 0.96 (2024)** — exceeding total car deregistrations in 2023. 2025 Comtrade qty field is 0 with ~19kt net weight (unusable; flag). Every derived split labeled `triangulated`, never presented as LTA-reported.
+- **Projection horizon: provisional 2035; model deferred to Part 2.** *Decided 2026-07-08.*
+- **Analytical framing (reframe): the disposal split is itself a finding, not an input.** *Decided 2026-07-08 (Abdullah), after the Comtrade/deregistration ratio hit 1.31 (2023).* The export/scrap split is **not cleanly measurable from public data** — Comtrade HS 8703 conflates new-car re-exports with used-ELV exports. Therefore: **(a)** Layer 1 (annual ELV generation = car deregistrations) is the verified headline; **(b)** Layer 2 (disposal split) is presented as a bounded, low-confidence estimate whose honest finding is *"open data can't separate domestic scrapping from export"* — the invisible-gap thesis in miniature; **no fabricated percentage**; **(c)** Layer 4 (material value at risk) is a **scenario range keyed to an assumed domestic-scrap share**, not a point estimate. Domain context (Singapore as a used-car export hub) appears only as labeled `unverified` context.
+- **Comtrade load rules.** *Decided 2026-07-08.* Pull `qty` + `netWgt` + FOB value together; treat `qty` as **unreliable** (2025: qty=0 despite ~19kt net weight); prefer **net weight** for magnitude statements; **flag partial/incomplete years** explicitly.
 
 ---
 
