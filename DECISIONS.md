@@ -75,6 +75,17 @@ So the product presents:
 - Domain context (Singapore as a used-car export hub) appears only as labeled
   `unverified` context.
 
+**Bound semantics of the residual** (*locked 2026-07-09*): because the
+Comtrade export proxy is an **upper bound** on used-car exports (new-car
+re-export contamination — the same effect that pushes the 2023 proxy above
+total car deregistrations), the residual `deregistrations − proxy` is a
+**floor**: the 2024 `scrapped_est_residual` of 1,368 is a **low-confidence
+LOWER bound on domestic scrapping, not a point estimate** — true scrapped is
+likely higher. `elv_disposal_split` carries `scrapped_bound_direction` /
+`export_bound_direction` columns (and BigQuery column descriptions) so no
+downstream stage can read either as a clean count. In the Layer-4 scenario
+band, this floor is **one anchor inside the band, never the tonnage**.
+
 **Comtrade cross-check scope** (*locked 2026-07-08*): the Comtrade
 triangulation is a **spot cross-check limited to qty-available years — 2023
 and 2024** for the analysis window (`qty` is broken in 2022 and 2025: zero
