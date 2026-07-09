@@ -1,0 +1,16 @@
+parameter,material,year,low,mid,high,unit,source,source_url,verification_status
+scrap_share_scenario_a,all,all,0.05,0.05,0.05,share of car deregistrations,Assumption (scenario axis),,assumed
+scrap_share_scenario_b,all,all,0.10,0.10,0.10,share of car deregistrations,Assumption (scenario axis),,assumed
+scrap_share_scenario_c,all,all,0.25,0.25,0.25,share of car deregistrations,Assumption (scenario axis),,assumed
+scrap_share_scenario_d,all,all,0.50,0.50,0.50,share of car deregistrations,Assumption (scenario axis),,assumed
+scrap_share_floor_anchor_2024,all,2024,0.0379,0.0379,0.0379,share of car deregistrations,Derived: elv_disposal_split 2024 scrapped_est_residual 1368 / 36137 (LOWER BOUND - Comtrade proxy is an upper bound on exports),,derived_lower_bound
+curb_weight_t,all,all,1.2,1.4,1.6,tonnes per car,Typical passenger-car curb weight; ELV literature placeholder PENDING CITATION,,unverified
+material_fraction,steel,all,0.65,0.68,0.70,share of curb weight,ELV material composition literature placeholder PENDING CITATION,,unverified
+material_fraction,aluminium,all,0.06,0.08,0.10,share of curb weight,ELV material composition literature placeholder PENDING CITATION,,unverified
+material_fraction,copper,all,0.010,0.015,0.020,share of curb weight,ELV material composition literature placeholder PENDING CITATION,,unverified
+price_usd_per_tonne,steel,2023,300,380,450,USD per tonne,Heavy-melting-scrap benchmark placeholder PENDING CITATION (lme.com blocked by egress policy; not in World Bank CMO),https://www.lme.com/,unverified
+price_usd_per_tonne,steel,2024,300,380,450,USD per tonne,Heavy-melting-scrap benchmark placeholder PENDING CITATION (lme.com blocked by egress policy; not in World Bank CMO),https://www.lme.com/,unverified
+price_usd_per_tonne,aluminium,2023,2255.74,2255.74,2255.74,USD per tonne,World Bank CMO Pink Sheet monthly (LME cash) 2023 annual mean of 12 months; landed file data/landing/worldbank_cmo_pink_sheet/,https://thedocs.worldbank.org/en/doc/5d903e848db1d1b83e0ec8f744e55570-0350012021/related/CMO-Historical-Data-Monthly.xlsx,verified
+price_usd_per_tonne,aluminium,2024,2419.02,2419.02,2419.02,USD per tonne,World Bank CMO Pink Sheet monthly (LME cash) 2024 annual mean of 12 months; landed file data/landing/worldbank_cmo_pink_sheet/,https://thedocs.worldbank.org/en/doc/5d903e848db1d1b83e0ec8f744e55570-0350012021/related/CMO-Historical-Data-Monthly.xlsx,verified
+price_usd_per_tonne,copper,2023,8490.29,8490.29,8490.29,USD per tonne,World Bank CMO Pink Sheet monthly (LME cash) 2023 annual mean of 12 months; landed file data/landing/worldbank_cmo_pink_sheet/,https://thedocs.worldbank.org/en/doc/5d903e848db1d1b83e0ec8f744e55570-0350012021/related/CMO-Historical-Data-Monthly.xlsx,verified
+price_usd_per_tonne,copper,2024,9142.14,9142.14,9142.14,USD per tonne,World Bank CMO Pink Sheet monthly (LME cash) 2024 annual mean of 12 months; landed file data/landing/worldbank_cmo_pink_sheet/,https://thedocs.worldbank.org/en/doc/5d903e848db1d1b83e0ec8f744e55570-0350012021/related/CMO-Historical-Data-Monthly.xlsx,verified

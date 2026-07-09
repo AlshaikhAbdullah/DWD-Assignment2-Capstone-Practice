@@ -59,12 +59,12 @@ def fetch(url, tries=6):
     raise RuntimeError(f"{url} failed after {tries} tries: {err}")
 
 
-def land(slug, url):
+def land(slug, url, ext="json"):
     status, body = fetch(url)
     ts = datetime.datetime.now(datetime.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     d = os.path.join(LANDING, slug)
     os.makedirs(d, exist_ok=True)
-    path = os.path.join(d, f"{ts}.json")
+    path = os.path.join(d, f"{ts}.{ext}")
     with open(path, "wb") as f:
         f.write(body)
     rel = os.path.relpath(path, ROOT)
