@@ -10,7 +10,7 @@
 
 - **Repo:** `AlshaikhAbdullah/DWD-Assignment2-Capstone-Practice` (branch `main`)
 - **Lead:** Abdullah Alshaikh (tech lead — I Specify/Decompose/Verify/Diagnose/Translate; you implement)
-- **GCP project:** `<reuse msbai-... or set here>` · **BigQuery dataset:** `sg_elv`
+- **GCP project:** `msbai-dwd-aa13072` (reused) · **BigQuery dataset:** `sg_elv` (new)
 - **Artifact:** public Streamlit dashboard on Streamlit Community Cloud (NYU blocks public Cloud Run)
 
 **One-liner:** Load Singapore LTA vehicle registration/deregistration/population data into BigQuery; quantify the annual ELV stream; **split it into exported vs. domestically scrapped**; project it forward via the COE ~10-year cohort; estimate the recoverable **material value at risk** of the scrapped stream; ship it as a dashboard a capstone stakeholder could use. Core thesis: *vehicles reach end-of-life where they are used, not where they were produced* — Singapore proves it because much of its deregistered fleet is exported, not scrapped.
@@ -43,6 +43,10 @@
 - `fact_vehicle_flows` — **grain (month, vehicle_type)** — `new_registrations`, `deregistrations`, `deregistrations_exported`, `deregistrations_scrapped`, `vehicle_population`.
 - `elv_material_value` — **grain (year, material)** — `tonnes_recovered`, `price_per_tonne_usd`, `value_usd`, `confidence_tier`.
 - **Why layers:** land raw so we can replay/re-clean without re-fetching; clean in a view so a parse bug costs a query, not a reload.
+
+### Infrastructure decisions
+- **GCP project: `msbai-dwd-aa13072`** — reuse existing project; new dataset `sg_elv`. *Decided 2026-07-08 (Abdullah).*
+- **BigQuery dataset location: `US` (multi-region)** — immutable once created; chosen for cross-dataset join compatibility; no data-residency requirement since all data is public and aggregate. *Decided 2026-07-08 (Abdullah).*
 
 ### Scope decisions (fill in as we make them)
 - Vehicle scope for v1: **[OPEN]** cars/passenger only vs. include motorcycles/goods.
