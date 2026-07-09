@@ -3,7 +3,7 @@
 > Rule: no number appears on the dashboard unless its row here points to a
 > committed check (re-runnable, in `verification/`) or a labeled-unverified /
 > cited input (in `data/reference/material_value_inputs.csv`). Confidence
-> vocabulary: `verified` · `literature_cited` · `derived_lower_bound` ·
+> vocabulary: `verified` · `literature_cited` · `literature_cited_geo_transfer` · `derived_lower_bound` ·
 > `assumed` · `unverified` · `unverified context`.
 
 ## Act 1 — verified headline
@@ -38,12 +38,13 @@
 | 3.3 | Al price 2023/2024 | $2,255.74 / $2,419.02 per t | landed World Bank CMO Pink Sheet | re-derived from landed XLSX at build AND check time | verified |
 | 3.4 | Cu price 2023/2024 | $8,490.29 / $9,142.14 per t | same | same | verified |
 | 3.5 | Steel-scrap price | $300–450 per t | named proxy (HMS 1&2 80:20) | labeled in CSV — deliberately NO citation (unreachable) | unverified |
-| 3.6 | Curb weight | 1.2 / 1.44 / 1.6 t | steelonthenet snapshot (committed) | CSV row + committed HTML snapshot | literature_cited |
-| 3.7 | Steel fraction | 0.55 / 0.58 / 0.65 | steelonthenet (830/1440 kg = 58%); high end covers ferrous incl. cast iron | CSV row + snapshot | literature_cited |
-| 3.8 | Aluminium fraction | 0.06 / 0.08 / 0.10 | Aluminum Association grave-to-gate report citing Ducker (251 lbs 1999 → ~397 lbs 2015) | CSV row (URL + accessed date) | literature_cited |
-| 3.9 | Copper fraction | 0.012 / 0.0176 / 0.020 | CAR "Copper in ELV Recycling": 55.7 lbs/vehicle (snapshot committed) | CSV row + committed PDF | literature_cited |
+| 3.6 | Curb weight | 1.2 / 1.44 / 1.6 t | steelonthenet snapshot (committed) | CSV row + committed HTML snapshot | literature_cited_geo_transfer |
+| 3.7 | Steel fraction | 0.55 / 0.58 / 0.65 | steelonthenet (830/1440 kg = 58%); high end covers ferrous incl. cast iron | CSV row + snapshot | literature_cited_geo_transfer |
+| 3.8 | Aluminium fraction | 0.06 / 0.08 / 0.10 | Aluminum Association grave-to-gate report citing Ducker (251 lbs 1999 → ~397 lbs 2015) | CSV row (URL + accessed date) | literature_cited_geo_transfer |
+| 3.9 | Copper fraction | 0.012 / 0.0176 / 0.020 | CAR "Copper in ELV Recycling": 55.7 lbs/vehicle (snapshot committed) | CSV row + committed PDF | literature_cited_geo_transfer |
 | 3.10 | Scrap-share slider axis | 5–50% + 3.79% floor anchor | scenario design; anchor from 2.4 | anchor tie-back check | assumed (axis) / derived_lower_bound (anchor) |
 | 3.11 | Steel-dominance caveat | steel ≈ 58–70% of mass → unverified steel price dominates the band | — | DECISIONS.md (locked note; must render beside the slider) | verified (structural statement about the model) |
+| 3.11b | Geographic-transfer caveat | composition = US/global fleet averages applied to SG (1,440 kg not SG-measured) | `material_value_inputs.csv` | DECISIONS.md (locked note; must render on provenance strip) | verified (structural statement) |
 | 3.12 | Why no 2025 | no countable export proxy (qty=0) | `clean_comtrade_exports` | DECISIONS.md 2025-exclusion decision; landing checks | verified |
 
 ## Closing panel

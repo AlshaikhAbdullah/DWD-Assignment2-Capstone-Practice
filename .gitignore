@@ -1,2 +1,8 @@
 __pycache__/
 *.pyc
+
+# Streamlit secrets — never commit real keys
+.streamlit/secrets.toml
+*.sa.json
+*-key.json
+key.json
