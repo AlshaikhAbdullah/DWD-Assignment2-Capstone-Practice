@@ -107,6 +107,31 @@ headline (deregistrations = permanent removals) stands. Known bounded
 revision channel: 1-month COE revalidation grace (MVP05-1 footnote 6).
 Evidence: `verification/layer4_scenario_construction.md` §0.
 
+**Layer 4 input citations + steel-dominance caveat — locked 2026-07-09.**
+Curb weight (1.44 t typical) and steel share (~58%) cited from
+steelonthenet's Automotive Steel Weight Analysis (snapshot committed);
+aluminium share (7–10%) from the Aluminum Association grave-to-gate report
+citing Ducker Worldwide; copper (55.7 lbs ≈ 1.8%) from the Center for
+Automotive Research ELV-copper report (snapshot committed). Steel-scrap
+PRICE stays labeled-unverified with a **named proxy** (HMS 1&2 80:20 export
+benchmark) — no fabricated citation; lme.com is blocked and steel scrap is
+absent from the World Bank CMO. **Steel-dominance caveat (also required on
+the dashboard): steel is ~58–70% of vehicle mass, so the unverified
+steel-scrap price dominates the value band — the whole value layer stays
+illustrative-tier regardless of aluminium/copper price precision.**
+
+**2025 excluded from Layer 4 — decided 2026-07-09.** No 2025 export count
+exists (Comtrade qty = 0 despite ~19 kt net weight), so there is no quantity
+to value; Layer 4 stays at 2023–2024.
+
+**Dashboard presentation rules — locked 2026-07-09.** Band-plus-slider;
+every slider output framed conditionally — "if X% scrapped → ≈ $Y
+(illustrative, modeled)" — never an unconditional figure, with
+verified-vs-modeled provenance shown alongside. Page order: (1) verified
+ELV-generation series (headline), (2) the export/scrap gap (the honest
+finding), (3) the value band as the closing "what's at stake if" coda —
+never the headline.
+
 **Layer 4 construction — locked 2026-07-09.** Scenario band per
 (year, scrap-share scenario, material): assumed share axis (5–50%) with the
 2024 disposal-split floor (3.79%) as a lower-bound anchor INSIDE the band;

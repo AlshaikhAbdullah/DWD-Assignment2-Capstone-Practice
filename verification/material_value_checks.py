@@ -49,10 +49,11 @@ def main():
     steel = {r["price_verification"] for r in rows if r["material"] == "steel"}
     check("steel price labeled unverified (no reachable source)", steel == {"unverified"}, f"{steel}")
 
-    unv = [r for r in rows if r["weight_verification"] != "unverified"
-           or r["fraction_verification"] != "unverified"]
-    check("curb weight and material fractions labeled unverified everywhere",
-          not unv, f"{len(unv)} rows missing the label")
+    unv = [r for r in rows if r["weight_verification"] != "literature_cited"
+           or r["fraction_verification"] != "literature_cited"]
+    check("curb weight and material fractions labeled literature_cited everywhere",
+          not unv, "sources: steelonthenet (weight, steel), Aluminum Association/"
+          f"Ducker (Al), CAR copper report (Cu); {len(unv)} rows missing the label")
 
     bad = [r for r in rows if not (f(r, "value_usd_low") < f(r, "value_usd_mid") < f(r, "value_usd_high"))]
     check("strict band ordering low < mid < high in every row (no point estimates)",
