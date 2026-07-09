@@ -1,0 +1,5 @@
+# Streamlit Community Cloud dependencies for dashboard/app.py
+streamlit==1.59.1
+pandas==2.2.3
+google-cloud-bigquery==3.27.0
+google-auth==2.35.0

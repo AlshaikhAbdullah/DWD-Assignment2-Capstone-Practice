@@ -120,6 +120,16 @@ the dashboard): steel is ~58–70% of vehicle mass, so the unverified
 steel-scrap price dominates the value band — the whole value layer stays
 illustrative-tier regardless of aluminium/copper price precision.**
 
+**Composition inputs are a modeled GEOGRAPHIC TRANSFER — locked 2026-07-09.**
+Curb weight and all three material fractions are US/global light-vehicle
+averages **transferred to Singapore's fleet** — Singapore publishes no
+measured fleet composition or curb weight, so 1,440 kg is a US/global figure,
+not an SG-measured one. This cross-geography assumption is a further reason
+the value band is **illustrative-tier**, independent of the steel-price
+issue. Labeled `literature_cited_geo_transfer` in the composition rows of
+`data/reference/material_value_inputs.csv`; must render as such on the
+dashboard provenance strip.
+
 **2025 excluded from Layer 4 — decided 2026-07-09.** No 2025 export count
 exists (Comtrade qty = 0 despite ~19 kt net weight), so there is no quantity
 to value; Layer 4 stays at 2023–2024.

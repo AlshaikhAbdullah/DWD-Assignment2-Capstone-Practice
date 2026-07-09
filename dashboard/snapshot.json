@@ -1,0 +1,2742 @@
+{
+ "yearly_flows": [
+  {
+   "year": "1990",
+   "car_deregistrations": "11258",
+   "car_new_registrations": "16007"
+  },
+  {
+   "year": "1991",
+   "car_deregistrations": "16698",
+   "car_new_registrations": "29354"
+  },
+  {
+   "year": "1992",
+   "car_deregistrations": "28649",
+   "car_new_registrations": "30463"
+  },
+  {
+   "year": "1993",
+   "car_deregistrations": "21173",
+   "car_new_registrations": "39681"
+  },
+  {
+   "year": "1994",
+   "car_deregistrations": "16426",
+   "car_new_registrations": "34071"
+  },
+  {
+   "year": "1995",
+   "car_deregistrations": "11417",
+   "car_new_registrations": "32741"
+  },
+  {
+   "year": "1996",
+   "car_deregistrations": "8747",
+   "car_new_registrations": "28825"
+  },
+  {
+   "year": "1997",
+   "car_deregistrations": "13372",
+   "car_new_registrations": "25082"
+  },
+  {
+   "year": "1998",
+   "car_deregistrations": "30086",
+   "car_new_registrations": "27916"
+  },
+  {
+   "year": "1999",
+   "car_deregistrations": "30807",
+   "car_new_registrations": "38560"
+  },
+  {
+   "year": "2000",
+   "car_deregistrations": "48140",
+   "car_new_registrations": "58120"
+  },
+  {
+   "year": "2001",
+   "car_deregistrations": "54842",
+   "car_new_registrations": "67189"
+  },
+  {
+   "year": "2002",
+   "car_deregistrations": "64089",
+   "car_new_registrations": "62987"
+  },
+  {
+   "year": "2003",
+   "car_deregistrations": "80241",
+   "car_new_registrations": "81295"
+  },
+  {
+   "year": "2004",
+   "car_deregistrations": "84925",
+   "car_new_registrations": "96706"
+  },
+  {
+   "year": "2005",
+   "car_deregistrations": "88076",
+   "car_new_registrations": "109167"
+  },
+  {
+   "year": "2006",
+   "car_deregistrations": "82811",
+   "car_new_registrations": "116849"
+  },
+  {
+   "year": "2007",
+   "car_deregistrations": "64145",
+   "car_new_registrations": "106531"
+  },
+  {
+   "year": "2008",
+   "car_deregistrations": "61269",
+   "car_new_registrations": "97068"
+  },
+  {
+   "year": "2009",
+   "car_deregistrations": "42134",
+   "car_new_registrations": "68674"
+  },
+  {
+   "year": "2010",
+   "car_deregistrations": "23462",
+   "car_new_registrations": "41665"
+  },
+  {
+   "year": "2011",
+   "car_deregistrations": "19375",
+   "car_new_registrations": "27911"
+  },
+  {
+   "year": "2012",
+   "car_deregistrations": "13585",
+   "car_new_registrations": "27405"
+  },
+  {
+   "year": "2013",
+   "car_deregistrations": "18273",
+   "car_new_registrations": "22008"
+  },
+  {
+   "year": "2014",
+   "car_deregistrations": "33373",
+   "car_new_registrations": "28615"
+  },
+  {
+   "year": "2015",
+   "car_deregistrations": "71752",
+   "car_new_registrations": "57452"
+  },
+  {
+   "year": "2016",
+   "car_deregistrations": "88317",
+   "car_new_registrations": "87302"
+  },
+  {
+   "year": "2017",
+   "car_deregistrations": "80788",
+   "car_new_registrations": "91775"
+  },
+  {
+   "year": "2018",
+   "car_deregistrations": "76861",
+   "car_new_registrations": "80093"
+  },
+  {
+   "year": "2019",
+   "car_deregistrations": "57561",
+   "car_new_registrations": "72218"
+  },
+  {
+   "year": "2020",
+   "car_deregistrations": "40847",
+   "car_new_registrations": "44307"
+  },
+  {
+   "year": "2021",
+   "car_deregistrations": "34116",
+   "car_new_registrations": "45236"
+  },
+  {
+   "year": "2022",
+   "car_deregistrations": "24938",
+   "car_new_registrations": "30472"
+  },
+  {
+   "year": "2023",
+   "car_deregistrations": "29089",
+   "car_new_registrations": "29725"
+  },
+  {
+   "year": "2024",
+   "car_deregistrations": "36137",
+   "car_new_registrations": "42579"
+  },
+  {
+   "year": "2025",
+   "car_deregistrations": "49550",
+   "car_new_registrations": "52381"
+  }
+ ],
+ "monthly_car_dereg": [
+  {
+   "month": "1990-05-01",
+   "car_deregistrations": "1465"
+  },
+  {
+   "month": "1990-06-01",
+   "car_deregistrations": "1218"
+  },
+  {
+   "month": "1990-07-01",
+   "car_deregistrations": "1149"
+  },
+  {
+   "month": "1990-08-01",
+   "car_deregistrations": "1245"
+  },
+  {
+   "month": "1990-09-01",
+   "car_deregistrations": "1105"
+  },
+  {
+   "month": "1990-10-01",
+   "car_deregistrations": "1300"
+  },
+  {
+   "month": "1990-11-01",
+   "car_deregistrations": "1986"
+  },
+  {
+   "month": "1990-12-01",
+   "car_deregistrations": "1790"
+  },
+  {
+   "month": "1991-01-01",
+   "car_deregistrations": "1758"
+  },
+  {
+   "month": "1991-02-01",
+   "car_deregistrations": "1077"
+  },
+  {
+   "month": "1991-03-01",
+   "car_deregistrations": "1667"
+  },
+  {
+   "month": "1991-04-01",
+   "car_deregistrations": "1319"
+  },
+  {
+   "month": "1991-05-01",
+   "car_deregistrations": "1210"
+  },
+  {
+   "month": "1991-06-01",
+   "car_deregistrations": "1213"
+  },
+  {
+   "month": "1991-07-01",
+   "car_deregistrations": "1489"
+  },
+  {
+   "month": "1991-08-01",
+   "car_deregistrations": "1028"
+  },
+  {
+   "month": "1991-09-01",
+   "car_deregistrations": "1323"
+  },
+  {
+   "month": "1991-10-01",
+   "car_deregistrations": "1758"
+  },
+  {
+   "month": "1991-11-01",
+   "car_deregistrations": "1273"
+  },
+  {
+   "month": "1991-12-01",
+   "car_deregistrations": "1583"
+  },
+  {
+   "month": "1992-01-01",
+   "car_deregistrations": "1655"
+  },
+  {
+   "month": "1992-02-01",
+   "car_deregistrations": "1533"
+  },
+  {
+   "month": "1992-03-01",
+   "car_deregistrations": "2314"
+  },
+  {
+   "month": "1992-04-01",
+   "car_deregistrations": "8457"
+  },
+  {
+   "month": "1992-05-01",
+   "car_deregistrations": "3434"
+  },
+  {
+   "month": "1992-06-01",
+   "car_deregistrations": "1413"
+  },
+  {
+   "month": "1992-07-01",
+   "car_deregistrations": "1731"
+  },
+  {
+   "month": "1992-08-01",
+   "car_deregistrations": "1549"
+  },
+  {
+   "month": "1992-09-01",
+   "car_deregistrations": "1497"
+  },
+  {
+   "month": "1992-10-01",
+   "car_deregistrations": "1443"
+  },
+  {
+   "month": "1992-11-01",
+   "car_deregistrations": "1721"
+  },
+  {
+   "month": "1992-12-01",
+   "car_deregistrations": "1902"
+  },
+  {
+   "month": "1993-01-01",
+   "car_deregistrations": "1365"
+  },
+  {
+   "month": "1993-02-01",
+   "car_deregistrations": "2141"
+  },
+  {
+   "month": "1993-03-01",
+   "car_deregistrations": "2235"
+  },
+  {
+   "month": "1993-04-01",
+   "car_deregistrations": "1995"
+  },
+  {
+   "month": "1993-05-01",
+   "car_deregistrations": "1934"
+  },
+  {
+   "month": "1993-06-01",
+   "car_deregistrations": "1998"
+  },
+  {
+   "month": "1993-07-01",
+   "car_deregistrations": "1876"
+  },
+  {
+   "month": "1993-08-01",
+   "car_deregistrations": "1513"
+  },
+  {
+   "month": "1993-09-01",
+   "car_deregistrations": "1598"
+  },
+  {
+   "month": "1993-10-01",
+   "car_deregistrations": "1382"
+  },
+  {
+   "month": "1993-11-01",
+   "car_deregistrations": "1434"
+  },
+  {
+   "month": "1993-12-01",
+   "car_deregistrations": "1702"
+  },
+  {
+   "month": "1994-01-01",
+   "car_deregistrations": "934"
+  },
+  {
+   "month": "1994-02-01",
+   "car_deregistrations": "1167"
+  },
+  {
+   "month": "1994-03-01",
+   "car_deregistrations": "1686"
+  },
+  {
+   "month": "1994-04-01",
+   "car_deregistrations": "1375"
+  },
+  {
+   "month": "1994-05-01",
+   "car_deregistrations": "1596"
+  },
+  {
+   "month": "1994-06-01",
+   "car_deregistrations": "1607"
+  },
+  {
+   "month": "1994-07-01",
+   "car_deregistrations": "1272"
+  },
+  {
+   "month": "1994-08-01",
+   "car_deregistrations": "1414"
+  },
+  {
+   "month": "1994-09-01",
+   "car_deregistrations": "1387"
+  },
+  {
+   "month": "1994-10-01",
+   "car_deregistrations": "1244"
+  },
+  {
+   "month": "1994-11-01",
+   "car_deregistrations": "1258"
+  },
+  {
+   "month": "1994-12-01",
+   "car_deregistrations": "1486"
+  },
+  {
+   "month": "1995-01-01",
+   "car_deregistrations": "1403"
+  },
+  {
+   "month": "1995-02-01",
+   "car_deregistrations": "1153"
+  },
+  {
+   "month": "1995-03-01",
+   "car_deregistrations": "1081"
+  },
+  {
+   "month": "1995-04-01",
+   "car_deregistrations": "1055"
+  },
+  {
+   "month": "1995-05-01",
+   "car_deregistrations": "877"
+  },
+  {
+   "month": "1995-06-01",
+   "car_deregistrations": "939"
+  },
+  {
+   "month": "1995-07-01",
+   "car_deregistrations": "956"
+  },
+  {
+   "month": "1995-08-01",
+   "car_deregistrations": "684"
+  },
+  {
+   "month": "1995-09-01",
+   "car_deregistrations": "821"
+  },
+  {
+   "month": "1995-10-01",
+   "car_deregistrations": "741"
+  },
+  {
+   "month": "1995-11-01",
+   "car_deregistrations": "770"
+  },
+  {
+   "month": "1995-12-01",
+   "car_deregistrations": "937"
+  },
+  {
+   "month": "1996-01-01",
+   "car_deregistrations": "889"
+  },
+  {
+   "month": "1996-02-01",
+   "car_deregistrations": "559"
+  },
+  {
+   "month": "1996-03-01",
+   "car_deregistrations": "730"
+  },
+  {
+   "month": "1996-04-01",
+   "car_deregistrations": "648"
+  },
+  {
+   "month": "1996-05-01",
+   "car_deregistrations": "706"
+  },
+  {
+   "month": "1996-06-01",
+   "car_deregistrations": "651"
+  },
+  {
+   "month": "1996-07-01",
+   "car_deregistrations": "696"
+  },
+  {
+   "month": "1996-08-01",
+   "car_deregistrations": "633"
+  },
+  {
+   "month": "1996-09-01",
+   "car_deregistrations": "765"
+  },
+  {
+   "month": "1996-10-01",
+   "car_deregistrations": "749"
+  },
+  {
+   "month": "1996-11-01",
+   "car_deregistrations": "763"
+  },
+  {
+   "month": "1996-12-01",
+   "car_deregistrations": "958"
+  },
+  {
+   "month": "1997-01-01",
+   "car_deregistrations": "790"
+  },
+  {
+   "month": "1997-02-01",
+   "car_deregistrations": "677"
+  },
+  {
+   "month": "1997-03-01",
+   "car_deregistrations": "1079"
+  },
+  {
+   "month": "1997-04-01",
+   "car_deregistrations": "1002"
+  },
+  {
+   "month": "1997-05-01",
+   "car_deregistrations": "1046"
+  },
+  {
+   "month": "1997-06-01",
+   "car_deregistrations": "974"
+  },
+  {
+   "month": "1997-07-01",
+   "car_deregistrations": "1213"
+  },
+  {
+   "month": "1997-08-01",
+   "car_deregistrations": "1089"
+  },
+  {
+   "month": "1997-09-01",
+   "car_deregistrations": "1188"
+  },
+  {
+   "month": "1997-10-01",
+   "car_deregistrations": "1254"
+  },
+  {
+   "month": "1997-11-01",
+   "car_deregistrations": "1410"
+  },
+  {
+   "month": "1997-12-01",
+   "car_deregistrations": "1650"
+  },
+  {
+   "month": "1998-01-01",
+   "car_deregistrations": "1713"
+  },
+  {
+   "month": "1998-02-01",
+   "car_deregistrations": "1599"
+  },
+  {
+   "month": "1998-03-01",
+   "car_deregistrations": "1894"
+  },
+  {
+   "month": "1998-04-01",
+   "car_deregistrations": "2376"
+  },
+  {
+   "month": "1998-05-01",
+   "car_deregistrations": "2216"
+  },
+  {
+   "month": "1998-06-01",
+   "car_deregistrations": "2335"
+  },
+  {
+   "month": "1998-07-01",
+   "car_deregistrations": "2874"
+  },
+  {
+   "month": "1998-08-01",
+   "car_deregistrations": "2779"
+  },
+  {
+   "month": "1998-09-01",
+   "car_deregistrations": "2847"
+  },
+  {
+   "month": "1998-10-01",
+   "car_deregistrations": "3004"
+  },
+  {
+   "month": "1998-11-01",
+   "car_deregistrations": "3065"
+  },
+  {
+   "month": "1998-12-01",
+   "car_deregistrations": "3384"
+  },
+  {
+   "month": "1999-01-01",
+   "car_deregistrations": "3044"
+  },
+  {
+   "month": "1999-02-01",
+   "car_deregistrations": "2673"
+  },
+  {
+   "month": "1999-03-01",
+   "car_deregistrations": "3361"
+  },
+  {
+   "month": "1999-04-01",
+   "car_deregistrations": "2265"
+  },
+  {
+   "month": "1999-05-01",
+   "car_deregistrations": "1901"
+  },
+  {
+   "month": "1999-06-01",
+   "car_deregistrations": "1873"
+  },
+  {
+   "month": "1999-07-01",
+   "car_deregistrations": "2258"
+  },
+  {
+   "month": "1999-08-01",
+   "car_deregistrations": "2519"
+  },
+  {
+   "month": "1999-09-01",
+   "car_deregistrations": "2640"
+  },
+  {
+   "month": "1999-10-01",
+   "car_deregistrations": "2723"
+  },
+  {
+   "month": "1999-11-01",
+   "car_deregistrations": "2613"
+  },
+  {
+   "month": "1999-12-01",
+   "car_deregistrations": "2937"
+  },
+  {
+   "month": "2000-01-01",
+   "car_deregistrations": "2672"
+  },
+  {
+   "month": "2000-02-01",
+   "car_deregistrations": "2685"
+  },
+  {
+   "month": "2000-03-01",
+   "car_deregistrations": "3158"
+  },
+  {
+   "month": "2000-04-01",
+   "car_deregistrations": "2952"
+  },
+  {
+   "month": "2000-05-01",
+   "car_deregistrations": "2922"
+  },
+  {
+   "month": "2000-06-01",
+   "car_deregistrations": "5674"
+  },
+  {
+   "month": "2000-07-01",
+   "car_deregistrations": "13732"
+  },
+  {
+   "month": "2000-08-01",
+   "car_deregistrations": "4097"
+  },
+  {
+   "month": "2000-09-01",
+   "car_deregistrations": "2272"
+  },
+  {
+   "month": "2000-10-01",
+   "car_deregistrations": "2395"
+  },
+  {
+   "month": "2000-11-01",
+   "car_deregistrations": "2617"
+  },
+  {
+   "month": "2000-12-01",
+   "car_deregistrations": "2964"
+  },
+  {
+   "month": "2001-01-01",
+   "car_deregistrations": "3237"
+  },
+  {
+   "month": "2001-02-01",
+   "car_deregistrations": "3386"
+  },
+  {
+   "month": "2001-03-01",
+   "car_deregistrations": "3944"
+  },
+  {
+   "month": "2001-04-01",
+   "car_deregistrations": "4679"
+  },
+  {
+   "month": "2001-05-01",
+   "car_deregistrations": "4848"
+  },
+  {
+   "month": "2001-06-01",
+   "car_deregistrations": "3378"
+  },
+  {
+   "month": "2001-07-01",
+   "car_deregistrations": "3774"
+  },
+  {
+   "month": "2001-08-01",
+   "car_deregistrations": "3922"
+  },
+  {
+   "month": "2001-09-01",
+   "car_deregistrations": "4093"
+  },
+  {
+   "month": "2001-10-01",
+   "car_deregistrations": "8063"
+  },
+  {
+   "month": "2001-11-01",
+   "car_deregistrations": "5972"
+  },
+  {
+   "month": "2001-12-01",
+   "car_deregistrations": "5546"
+  },
+  {
+   "month": "2002-01-01",
+   "car_deregistrations": "5207"
+  },
+  {
+   "month": "2002-02-01",
+   "car_deregistrations": "4478"
+  },
+  {
+   "month": "2002-03-01",
+   "car_deregistrations": "7382"
+  },
+  {
+   "month": "2002-04-01",
+   "car_deregistrations": "5793"
+  },
+  {
+   "month": "2002-05-01",
+   "car_deregistrations": "4701"
+  },
+  {
+   "month": "2002-06-01",
+   "car_deregistrations": "4628"
+  },
+  {
+   "month": "2002-07-01",
+   "car_deregistrations": "5645"
+  },
+  {
+   "month": "2002-08-01",
+   "car_deregistrations": "5260"
+  },
+  {
+   "month": "2002-09-01",
+   "car_deregistrations": "5017"
+  },
+  {
+   "month": "2002-10-01",
+   "car_deregistrations": "5084"
+  },
+  {
+   "month": "2002-11-01",
+   "car_deregistrations": "5168"
+  },
+  {
+   "month": "2002-12-01",
+   "car_deregistrations": "5726"
+  },
+  {
+   "month": "2003-01-01",
+   "car_deregistrations": "6485"
+  },
+  {
+   "month": "2003-02-01",
+   "car_deregistrations": "5477"
+  },
+  {
+   "month": "2003-03-01",
+   "car_deregistrations": "6988"
+  },
+  {
+   "month": "2003-04-01",
+   "car_deregistrations": "6720"
+  },
+  {
+   "month": "2003-05-01",
+   "car_deregistrations": "7085"
+  },
+  {
+   "month": "2003-06-01",
+   "car_deregistrations": "6520"
+  },
+  {
+   "month": "2003-07-01",
+   "car_deregistrations": "7350"
+  },
+  {
+   "month": "2003-08-01",
+   "car_deregistrations": "5984"
+  },
+  {
+   "month": "2003-09-01",
+   "car_deregistrations": "6915"
+  },
+  {
+   "month": "2003-10-01",
+   "car_deregistrations": "6798"
+  },
+  {
+   "month": "2003-11-01",
+   "car_deregistrations": "6597"
+  },
+  {
+   "month": "2003-12-01",
+   "car_deregistrations": "7322"
+  },
+  {
+   "month": "2004-01-01",
+   "car_deregistrations": "6387"
+  },
+  {
+   "month": "2004-02-01",
+   "car_deregistrations": "7495"
+  },
+  {
+   "month": "2004-03-01",
+   "car_deregistrations": "8819"
+  },
+  {
+   "month": "2004-04-01",
+   "car_deregistrations": "7096"
+  },
+  {
+   "month": "2004-05-01",
+   "car_deregistrations": "7052"
+  },
+  {
+   "month": "2004-06-01",
+   "car_deregistrations": "6957"
+  },
+  {
+   "month": "2004-07-01",
+   "car_deregistrations": "6685"
+  },
+  {
+   "month": "2004-08-01",
+   "car_deregistrations": "6301"
+  },
+  {
+   "month": "2004-09-01",
+   "car_deregistrations": "6580"
+  },
+  {
+   "month": "2004-10-01",
+   "car_deregistrations": "7091"
+  },
+  {
+   "month": "2004-11-01",
+   "car_deregistrations": "7132"
+  },
+  {
+   "month": "2004-12-01",
+   "car_deregistrations": "7330"
+  },
+  {
+   "month": "2005-01-01",
+   "car_deregistrations": "7528"
+  },
+  {
+   "month": "2005-02-01",
+   "car_deregistrations": "5878"
+  },
+  {
+   "month": "2005-03-01",
+   "car_deregistrations": "9284"
+  },
+  {
+   "month": "2005-04-01",
+   "car_deregistrations": "7949"
+  },
+  {
+   "month": "2005-05-01",
+   "car_deregistrations": "7011"
+  },
+  {
+   "month": "2005-06-01",
+   "car_deregistrations": "7218"
+  },
+  {
+   "month": "2005-07-01",
+   "car_deregistrations": "7517"
+  },
+  {
+   "month": "2005-08-01",
+   "car_deregistrations": "6786"
+  },
+  {
+   "month": "2005-09-01",
+   "car_deregistrations": "6972"
+  },
+  {
+   "month": "2005-10-01",
+   "car_deregistrations": "7386"
+  },
+  {
+   "month": "2005-11-01",
+   "car_deregistrations": "7386"
+  },
+  {
+   "month": "2005-12-01",
+   "car_deregistrations": "7161"
+  },
+  {
+   "month": "2006-01-01",
+   "car_deregistrations": "7088"
+  },
+  {
+   "month": "2006-02-01",
+   "car_deregistrations": "6370"
+  },
+  {
+   "month": "2006-03-01",
+   "car_deregistrations": "8984"
+  },
+  {
+   "month": "2006-04-01",
+   "car_deregistrations": "7146"
+  },
+  {
+   "month": "2006-05-01",
+   "car_deregistrations": "7039"
+  },
+  {
+   "month": "2006-06-01",
+   "car_deregistrations": "6727"
+  },
+  {
+   "month": "2006-07-01",
+   "car_deregistrations": "7297"
+  },
+  {
+   "month": "2006-08-01",
+   "car_deregistrations": "6906"
+  },
+  {
+   "month": "2006-09-01",
+   "car_deregistrations": "5823"
+  },
+  {
+   "month": "2006-10-01",
+   "car_deregistrations": "6244"
+  },
+  {
+   "month": "2006-11-01",
+   "car_deregistrations": "6804"
+  },
+  {
+   "month": "2006-12-01",
+   "car_deregistrations": "6383"
+  },
+  {
+   "month": "2007-01-01",
+   "car_deregistrations": "6851"
+  },
+  {
+   "month": "2007-02-01",
+   "car_deregistrations": "5475"
+  },
+  {
+   "month": "2007-03-01",
+   "car_deregistrations": "6658"
+  },
+  {
+   "month": "2007-04-01",
+   "car_deregistrations": "6030"
+  },
+  {
+   "month": "2007-05-01",
+   "car_deregistrations": "5743"
+  },
+  {
+   "month": "2007-06-01",
+   "car_deregistrations": "5361"
+  },
+  {
+   "month": "2007-07-01",
+   "car_deregistrations": "5088"
+  },
+  {
+   "month": "2007-08-01",
+   "car_deregistrations": "4661"
+  },
+  {
+   "month": "2007-09-01",
+   "car_deregistrations": "4499"
+  },
+  {
+   "month": "2007-10-01",
+   "car_deregistrations": "5125"
+  },
+  {
+   "month": "2007-11-01",
+   "car_deregistrations": "4109"
+  },
+  {
+   "month": "2007-12-01",
+   "car_deregistrations": "4545"
+  },
+  {
+   "month": "2008-01-01",
+   "car_deregistrations": "5439"
+  },
+  {
+   "month": "2008-02-01",
+   "car_deregistrations": "4180"
+  },
+  {
+   "month": "2008-03-01",
+   "car_deregistrations": "5531"
+  },
+  {
+   "month": "2008-04-01",
+   "car_deregistrations": "5520"
+  },
+  {
+   "month": "2008-05-01",
+   "car_deregistrations": "5033"
+  },
+  {
+   "month": "2008-06-01",
+   "car_deregistrations": "5198"
+  },
+  {
+   "month": "2008-07-01",
+   "car_deregistrations": "5430"
+  },
+  {
+   "month": "2008-08-01",
+   "car_deregistrations": "4616"
+  },
+  {
+   "month": "2008-09-01",
+   "car_deregistrations": "5346"
+  },
+  {
+   "month": "2008-10-01",
+   "car_deregistrations": "4906"
+  },
+  {
+   "month": "2008-11-01",
+   "car_deregistrations": "4923"
+  },
+  {
+   "month": "2008-12-01",
+   "car_deregistrations": "5147"
+  },
+  {
+   "month": "2009-01-01",
+   "car_deregistrations": "4259"
+  },
+  {
+   "month": "2009-02-01",
+   "car_deregistrations": "4692"
+  },
+  {
+   "month": "2009-03-01",
+   "car_deregistrations": "5213"
+  },
+  {
+   "month": "2009-04-01",
+   "car_deregistrations": "4029"
+  },
+  {
+   "month": "2009-05-01",
+   "car_deregistrations": "3746"
+  },
+  {
+   "month": "2009-06-01",
+   "car_deregistrations": "3735"
+  },
+  {
+   "month": "2009-07-01",
+   "car_deregistrations": "3412"
+  },
+  {
+   "month": "2009-08-01",
+   "car_deregistrations": "2810"
+  },
+  {
+   "month": "2009-09-01",
+   "car_deregistrations": "2624"
+  },
+  {
+   "month": "2009-10-01",
+   "car_deregistrations": "2587"
+  },
+  {
+   "month": "2009-11-01",
+   "car_deregistrations": "2310"
+  },
+  {
+   "month": "2009-12-01",
+   "car_deregistrations": "2717"
+  },
+  {
+   "month": "2010-01-01",
+   "car_deregistrations": "3007"
+  },
+  {
+   "month": "2010-02-01",
+   "car_deregistrations": "2349"
+  },
+  {
+   "month": "2010-03-01",
+   "car_deregistrations": "2855"
+  },
+  {
+   "month": "2010-04-01",
+   "car_deregistrations": "1610"
+  },
+  {
+   "month": "2010-05-01",
+   "car_deregistrations": "1739"
+  },
+  {
+   "month": "2010-06-01",
+   "car_deregistrations": "2029"
+  },
+  {
+   "month": "2010-07-01",
+   "car_deregistrations": "1977"
+  },
+  {
+   "month": "2010-08-01",
+   "car_deregistrations": "1726"
+  },
+  {
+   "month": "2010-09-01",
+   "car_deregistrations": "1560"
+  },
+  {
+   "month": "2010-10-01",
+   "car_deregistrations": "1591"
+  },
+  {
+   "month": "2010-11-01",
+   "car_deregistrations": "1574"
+  },
+  {
+   "month": "2010-12-01",
+   "car_deregistrations": "1445"
+  },
+  {
+   "month": "2011-01-01",
+   "car_deregistrations": "1271"
+  },
+  {
+   "month": "2011-02-01",
+   "car_deregistrations": "997"
+  },
+  {
+   "month": "2011-03-01",
+   "car_deregistrations": "1856"
+  },
+  {
+   "month": "2011-04-01",
+   "car_deregistrations": "1518"
+  },
+  {
+   "month": "2011-05-01",
+   "car_deregistrations": "1965"
+  },
+  {
+   "month": "2011-06-01",
+   "car_deregistrations": "1800"
+  },
+  {
+   "month": "2011-07-01",
+   "car_deregistrations": "1917"
+  },
+  {
+   "month": "2011-08-01",
+   "car_deregistrations": "4278"
+  },
+  {
+   "month": "2011-09-01",
+   "car_deregistrations": "818"
+  },
+  {
+   "month": "2011-10-01",
+   "car_deregistrations": "921"
+  },
+  {
+   "month": "2011-11-01",
+   "car_deregistrations": "1056"
+  },
+  {
+   "month": "2011-12-01",
+   "car_deregistrations": "978"
+  },
+  {
+   "month": "2012-01-01",
+   "car_deregistrations": "940"
+  },
+  {
+   "month": "2012-02-01",
+   "car_deregistrations": "1131"
+  },
+  {
+   "month": "2012-03-01",
+   "car_deregistrations": "1318"
+  },
+  {
+   "month": "2012-04-01",
+   "car_deregistrations": "1243"
+  },
+  {
+   "month": "2012-05-01",
+   "car_deregistrations": "1184"
+  },
+  {
+   "month": "2012-06-01",
+   "car_deregistrations": "1024"
+  },
+  {
+   "month": "2012-07-01",
+   "car_deregistrations": "1113"
+  },
+  {
+   "month": "2012-08-01",
+   "car_deregistrations": "1085"
+  },
+  {
+   "month": "2012-09-01",
+   "car_deregistrations": "989"
+  },
+  {
+   "month": "2012-10-01",
+   "car_deregistrations": "1193"
+  },
+  {
+   "month": "2012-11-01",
+   "car_deregistrations": "1161"
+  },
+  {
+   "month": "2012-12-01",
+   "car_deregistrations": "1204"
+  },
+  {
+   "month": "2013-01-01",
+   "car_deregistrations": "1395"
+  },
+  {
+   "month": "2013-02-01",
+   "car_deregistrations": "1252"
+  },
+  {
+   "month": "2013-03-01",
+   "car_deregistrations": "1593"
+  },
+  {
+   "month": "2013-04-01",
+   "car_deregistrations": "2040"
+  },
+  {
+   "month": "2013-05-01",
+   "car_deregistrations": "1880"
+  },
+  {
+   "month": "2013-06-01",
+   "car_deregistrations": "1495"
+  },
+  {
+   "month": "2013-07-01",
+   "car_deregistrations": "1454"
+  },
+  {
+   "month": "2013-08-01",
+   "car_deregistrations": "1238"
+  },
+  {
+   "month": "2013-09-01",
+   "car_deregistrations": "1358"
+  },
+  {
+   "month": "2013-10-01",
+   "car_deregistrations": "1517"
+  },
+  {
+   "month": "2013-11-01",
+   "car_deregistrations": "1471"
+  },
+  {
+   "month": "2013-12-01",
+   "car_deregistrations": "1580"
+  },
+  {
+   "month": "2014-01-01",
+   "car_deregistrations": "1938"
+  },
+  {
+   "month": "2014-02-01",
+   "car_deregistrations": "2030"
+  },
+  {
+   "month": "2014-03-01",
+   "car_deregistrations": "2638"
+  },
+  {
+   "month": "2014-04-01",
+   "car_deregistrations": "2415"
+  },
+  {
+   "month": "2014-05-01",
+   "car_deregistrations": "2372"
+  },
+  {
+   "month": "2014-06-01",
+   "car_deregistrations": "2418"
+  },
+  {
+   "month": "2014-07-01",
+   "car_deregistrations": "2724"
+  },
+  {
+   "month": "2014-08-01",
+   "car_deregistrations": "2639"
+  },
+  {
+   "month": "2014-09-01",
+   "car_deregistrations": "3187"
+  },
+  {
+   "month": "2014-10-01",
+   "car_deregistrations": "3513"
+  },
+  {
+   "month": "2014-11-01",
+   "car_deregistrations": "3517"
+  },
+  {
+   "month": "2014-12-01",
+   "car_deregistrations": "3982"
+  },
+  {
+   "month": "2015-01-01",
+   "car_deregistrations": "5269"
+  },
+  {
+   "month": "2015-02-01",
+   "car_deregistrations": "3616"
+  },
+  {
+   "month": "2015-03-01",
+   "car_deregistrations": "6446"
+  },
+  {
+   "month": "2015-04-01",
+   "car_deregistrations": "5907"
+  },
+  {
+   "month": "2015-05-01",
+   "car_deregistrations": "5818"
+  },
+  {
+   "month": "2015-06-01",
+   "car_deregistrations": "6123"
+  },
+  {
+   "month": "2015-07-01",
+   "car_deregistrations": "6180"
+  },
+  {
+   "month": "2015-08-01",
+   "car_deregistrations": "5191"
+  },
+  {
+   "month": "2015-09-01",
+   "car_deregistrations": "6064"
+  },
+  {
+   "month": "2015-10-01",
+   "car_deregistrations": "7025"
+  },
+  {
+   "month": "2015-11-01",
+   "car_deregistrations": "6850"
+  },
+  {
+   "month": "2015-12-01",
+   "car_deregistrations": "7263"
+  },
+  {
+   "month": "2016-01-01",
+   "car_deregistrations": "7557"
+  },
+  {
+   "month": "2016-02-01",
+   "car_deregistrations": "6684"
+  },
+  {
+   "month": "2016-03-01",
+   "car_deregistrations": "9827"
+  },
+  {
+   "month": "2016-04-01",
+   "car_deregistrations": "7586"
+  },
+  {
+   "month": "2016-05-01",
+   "car_deregistrations": "7450"
+  },
+  {
+   "month": "2016-06-01",
+   "car_deregistrations": "6776"
+  },
+  {
+   "month": "2016-07-01",
+   "car_deregistrations": "6896"
+  },
+  {
+   "month": "2016-08-01",
+   "car_deregistrations": "6693"
+  },
+  {
+   "month": "2016-09-01",
+   "car_deregistrations": "6554"
+  },
+  {
+   "month": "2016-10-01",
+   "car_deregistrations": "7350"
+  },
+  {
+   "month": "2016-11-01",
+   "car_deregistrations": "7578"
+  },
+  {
+   "month": "2016-12-01",
+   "car_deregistrations": "7366"
+  },
+  {
+   "month": "2017-01-01",
+   "car_deregistrations": "7305"
+  },
+  {
+   "month": "2017-02-01",
+   "car_deregistrations": "6158"
+  },
+  {
+   "month": "2017-03-01",
+   "car_deregistrations": "7535"
+  },
+  {
+   "month": "2017-04-01",
+   "car_deregistrations": "6499"
+  },
+  {
+   "month": "2017-05-01",
+   "car_deregistrations": "7036"
+  },
+  {
+   "month": "2017-06-01",
+   "car_deregistrations": "6699"
+  },
+  {
+   "month": "2017-07-01",
+   "car_deregistrations": "6757"
+  },
+  {
+   "month": "2017-08-01",
+   "car_deregistrations": "6665"
+  },
+  {
+   "month": "2017-09-01",
+   "car_deregistrations": "6514"
+  },
+  {
+   "month": "2017-10-01",
+   "car_deregistrations": "6609"
+  },
+  {
+   "month": "2017-11-01",
+   "car_deregistrations": "6310"
+  },
+  {
+   "month": "2017-12-01",
+   "car_deregistrations": "6701"
+  },
+  {
+   "month": "2018-01-01",
+   "car_deregistrations": "7022"
+  },
+  {
+   "month": "2018-02-01",
+   "car_deregistrations": "4696"
+  },
+  {
+   "month": "2018-03-01",
+   "car_deregistrations": "6353"
+  },
+  {
+   "month": "2018-04-01",
+   "car_deregistrations": "6387"
+  },
+  {
+   "month": "2018-05-01",
+   "car_deregistrations": "6526"
+  },
+  {
+   "month": "2018-06-01",
+   "car_deregistrations": "6580"
+  },
+  {
+   "month": "2018-07-01",
+   "car_deregistrations": "7129"
+  },
+  {
+   "month": "2018-08-01",
+   "car_deregistrations": "6750"
+  },
+  {
+   "month": "2018-09-01",
+   "car_deregistrations": "6442"
+  },
+  {
+   "month": "2018-10-01",
+   "car_deregistrations": "6290"
+  },
+  {
+   "month": "2018-11-01",
+   "car_deregistrations": "6560"
+  },
+  {
+   "month": "2018-12-01",
+   "car_deregistrations": "6126"
+  },
+  {
+   "month": "2019-01-01",
+   "car_deregistrations": "5972"
+  },
+  {
+   "month": "2019-02-01",
+   "car_deregistrations": "4730"
+  },
+  {
+   "month": "2019-03-01",
+   "car_deregistrations": "6368"
+  },
+  {
+   "month": "2019-04-01",
+   "car_deregistrations": "5136"
+  },
+  {
+   "month": "2019-05-01",
+   "car_deregistrations": "4581"
+  },
+  {
+   "month": "2019-06-01",
+   "car_deregistrations": "4263"
+  },
+  {
+   "month": "2019-07-01",
+   "car_deregistrations": "4960"
+  },
+  {
+   "month": "2019-08-01",
+   "car_deregistrations": "4299"
+  },
+  {
+   "month": "2019-09-01",
+   "car_deregistrations": "4249"
+  },
+  {
+   "month": "2019-10-01",
+   "car_deregistrations": "4319"
+  },
+  {
+   "month": "2019-11-01",
+   "car_deregistrations": "4269"
+  },
+  {
+   "month": "2019-12-01",
+   "car_deregistrations": "4415"
+  },
+  {
+   "month": "2020-01-01",
+   "car_deregistrations": "4350"
+  },
+  {
+   "month": "2020-02-01",
+   "car_deregistrations": "3808"
+  },
+  {
+   "month": "2020-03-01",
+   "car_deregistrations": "4676"
+  },
+  {
+   "month": "2020-04-01",
+   "car_deregistrations": "3101"
+  },
+  {
+   "month": "2020-05-01",
+   "car_deregistrations": "2036"
+  },
+  {
+   "month": "2020-06-01",
+   "car_deregistrations": "3355"
+  },
+  {
+   "month": "2020-07-01",
+   "car_deregistrations": "3459"
+  },
+  {
+   "month": "2020-08-01",
+   "car_deregistrations": "3540"
+  },
+  {
+   "month": "2020-09-01",
+   "car_deregistrations": "3242"
+  },
+  {
+   "month": "2020-10-01",
+   "car_deregistrations": "3177"
+  },
+  {
+   "month": "2020-11-01",
+   "car_deregistrations": "3088"
+  },
+  {
+   "month": "2020-12-01",
+   "car_deregistrations": "3015"
+  },
+  {
+   "month": "2021-01-01",
+   "car_deregistrations": "2810"
+  },
+  {
+   "month": "2021-02-01",
+   "car_deregistrations": "2466"
+  },
+  {
+   "month": "2021-03-01",
+   "car_deregistrations": "3722"
+  },
+  {
+   "month": "2021-04-01",
+   "car_deregistrations": "3254"
+  },
+  {
+   "month": "2021-05-01",
+   "car_deregistrations": "3670"
+  },
+  {
+   "month": "2021-06-01",
+   "car_deregistrations": "3544"
+  },
+  {
+   "month": "2021-07-01",
+   "car_deregistrations": "2581"
+  },
+  {
+   "month": "2021-08-01",
+   "car_deregistrations": "2592"
+  },
+  {
+   "month": "2021-09-01",
+   "car_deregistrations": "2279"
+  },
+  {
+   "month": "2021-10-01",
+   "car_deregistrations": "2571"
+  },
+  {
+   "month": "2021-11-01",
+   "car_deregistrations": "2363"
+  },
+  {
+   "month": "2021-12-01",
+   "car_deregistrations": "2264"
+  },
+  {
+   "month": "2022-01-01",
+   "car_deregistrations": "2582"
+  },
+  {
+   "month": "2022-02-01",
+   "car_deregistrations": "1989"
+  },
+  {
+   "month": "2022-03-01",
+   "car_deregistrations": "3004"
+  },
+  {
+   "month": "2022-04-01",
+   "car_deregistrations": "2105"
+  },
+  {
+   "month": "2022-05-01",
+   "car_deregistrations": "1876"
+  },
+  {
+   "month": "2022-06-01",
+   "car_deregistrations": "1938"
+  },
+  {
+   "month": "2022-07-01",
+   "car_deregistrations": "1841"
+  },
+  {
+   "month": "2022-08-01",
+   "car_deregistrations": "1867"
+  },
+  {
+   "month": "2022-09-01",
+   "car_deregistrations": "1916"
+  },
+  {
+   "month": "2022-10-01",
+   "car_deregistrations": "1807"
+  },
+  {
+   "month": "2022-11-01",
+   "car_deregistrations": "2414"
+  },
+  {
+   "month": "2022-12-01",
+   "car_deregistrations": "1599"
+  },
+  {
+   "month": "2023-01-01",
+   "car_deregistrations": "1507"
+  },
+  {
+   "month": "2023-02-01",
+   "car_deregistrations": "1559"
+  },
+  {
+   "month": "2023-03-01",
+   "car_deregistrations": "2489"
+  },
+  {
+   "month": "2023-04-01",
+   "car_deregistrations": "2463"
+  },
+  {
+   "month": "2023-05-01",
+   "car_deregistrations": "2910"
+  },
+  {
+   "month": "2023-06-01",
+   "car_deregistrations": "2381"
+  },
+  {
+   "month": "2023-07-01",
+   "car_deregistrations": "2375"
+  },
+  {
+   "month": "2023-08-01",
+   "car_deregistrations": "2612"
+  },
+  {
+   "month": "2023-09-01",
+   "car_deregistrations": "2549"
+  },
+  {
+   "month": "2023-10-01",
+   "car_deregistrations": "2565"
+  },
+  {
+   "month": "2023-11-01",
+   "car_deregistrations": "2695"
+  },
+  {
+   "month": "2023-12-01",
+   "car_deregistrations": "2984"
+  },
+  {
+   "month": "2024-01-01",
+   "car_deregistrations": "3154"
+  },
+  {
+   "month": "2024-02-01",
+   "car_deregistrations": "2784"
+  },
+  {
+   "month": "2024-03-01",
+   "car_deregistrations": "3666"
+  },
+  {
+   "month": "2024-04-01",
+   "car_deregistrations": "3558"
+  },
+  {
+   "month": "2024-05-01",
+   "car_deregistrations": "2784"
+  },
+  {
+   "month": "2024-06-01",
+   "car_deregistrations": "1954"
+  },
+  {
+   "month": "2024-07-01",
+   "car_deregistrations": "2313"
+  },
+  {
+   "month": "2024-08-01",
+   "car_deregistrations": "2997"
+  },
+  {
+   "month": "2024-09-01",
+   "car_deregistrations": "3214"
+  },
+  {
+   "month": "2024-10-01",
+   "car_deregistrations": "3387"
+  },
+  {
+   "month": "2024-11-01",
+   "car_deregistrations": "2812"
+  },
+  {
+   "month": "2024-12-01",
+   "car_deregistrations": "3514"
+  },
+  {
+   "month": "2025-01-01",
+   "car_deregistrations": "3605"
+  },
+  {
+   "month": "2025-02-01",
+   "car_deregistrations": "3200"
+  },
+  {
+   "month": "2025-03-01",
+   "car_deregistrations": "3816"
+  },
+  {
+   "month": "2025-04-01",
+   "car_deregistrations": "3838"
+  },
+  {
+   "month": "2025-05-01",
+   "car_deregistrations": "4047"
+  },
+  {
+   "month": "2025-06-01",
+   "car_deregistrations": "4257"
+  },
+  {
+   "month": "2025-07-01",
+   "car_deregistrations": "4061"
+  },
+  {
+   "month": "2025-08-01",
+   "car_deregistrations": "4914"
+  },
+  {
+   "month": "2025-09-01",
+   "car_deregistrations": "4237"
+  },
+  {
+   "month": "2025-10-01",
+   "car_deregistrations": "4683"
+  },
+  {
+   "month": "2025-11-01",
+   "car_deregistrations": "4188"
+  },
+  {
+   "month": "2025-12-01",
+   "car_deregistrations": "4704"
+  },
+  {
+   "month": "2026-01-01",
+   "car_deregistrations": "5281"
+  },
+  {
+   "month": "2026-02-01",
+   "car_deregistrations": "4144"
+  },
+  {
+   "month": "2026-03-01",
+   "car_deregistrations": "5859"
+  },
+  {
+   "month": "2026-04-01",
+   "car_deregistrations": "5767"
+  },
+  {
+   "month": "2026-05-01",
+   "car_deregistrations": null
+  }
+ ],
+ "disposal_split": [
+  {
+   "year": "2005",
+   "deregistrations_total": "88076",
+   "exported_units_comtrade": null,
+   "scrapped_est_residual": null,
+   "export_proxy_ratio": null,
+   "proxy_exceeds_deregistrations": "false",
+   "scrapped_bound_direction": null,
+   "export_bound_direction": null,
+   "method": "no_countable_export_proxy",
+   "confidence_tier": "context_only"
+  },
+  {
+   "year": "2006",
+   "deregistrations_total": "82811",
+   "exported_units_comtrade": null,
+   "scrapped_est_residual": null,
+   "export_proxy_ratio": null,
+   "proxy_exceeds_deregistrations": "false",
+   "scrapped_bound_direction": null,
+   "export_bound_direction": null,
+   "method": "no_countable_export_proxy",
+   "confidence_tier": "context_only"
+  },
+  {
+   "year": "2007",
+   "deregistrations_total": "64145",
+   "exported_units_comtrade": null,
+   "scrapped_est_residual": null,
+   "export_proxy_ratio": null,
+   "proxy_exceeds_deregistrations": "false",
+   "scrapped_bound_direction": null,
+   "export_bound_direction": null,
+   "method": "no_countable_export_proxy",
+   "confidence_tier": "context_only"
+  },
+  {
+   "year": "2008",
+   "deregistrations_total": "61269",
+   "exported_units_comtrade": null,
+   "scrapped_est_residual": null,
+   "export_proxy_ratio": null,
+   "proxy_exceeds_deregistrations": "false",
+   "scrapped_bound_direction": null,
+   "export_bound_direction": null,
+   "method": "no_countable_export_proxy",
+   "confidence_tier": "context_only"
+  },
+  {
+   "year": "2009",
+   "deregistrations_total": "42134",
+   "exported_units_comtrade": null,
+   "scrapped_est_residual": null,
+   "export_proxy_ratio": null,
+   "proxy_exceeds_deregistrations": "false",
+   "scrapped_bound_direction": null,
+   "export_bound_direction": null,
+   "method": "no_countable_export_proxy",
+   "confidence_tier": "context_only"
+  },
+  {
+   "year": "2010",
+   "deregistrations_total": "23462",
+   "exported_units_comtrade": null,
+   "scrapped_est_residual": null,
+   "export_proxy_ratio": null,
+   "proxy_exceeds_deregistrations": "false",
+   "scrapped_bound_direction": null,
+   "export_bound_direction": null,
+   "method": "no_countable_export_proxy",
+   "confidence_tier": "context_only"
+  },
+  {
+   "year": "2011",
+   "deregistrations_total": "19375",
+   "exported_units_comtrade": null,
+   "scrapped_est_residual": null,
+   "export_proxy_ratio": null,
+   "proxy_exceeds_deregistrations": "false",
+   "scrapped_bound_direction": null,
+   "export_bound_direction": null,
+   "method": "no_countable_export_proxy",
+   "confidence_tier": "context_only"
+  },
+  {
+   "year": "2012",
+   "deregistrations_total": "13585",
+   "exported_units_comtrade": null,
+   "scrapped_est_residual": null,
+   "export_proxy_ratio": null,
+   "proxy_exceeds_deregistrations": "false",
+   "scrapped_bound_direction": null,
+   "export_bound_direction": null,
+   "method": "no_countable_export_proxy",
+   "confidence_tier": "context_only"
+  },
+  {
+   "year": "2013",
+   "deregistrations_total": "18273",
+   "exported_units_comtrade": null,
+   "scrapped_est_residual": null,
+   "export_proxy_ratio": null,
+   "proxy_exceeds_deregistrations": "false",
+   "scrapped_bound_direction": null,
+   "export_bound_direction": null,
+   "method": "no_countable_export_proxy",
+   "confidence_tier": "context_only"
+  },
+  {
+   "year": "2014",
+   "deregistrations_total": "33373",
+   "exported_units_comtrade": null,
+   "scrapped_est_residual": null,
+   "export_proxy_ratio": null,
+   "proxy_exceeds_deregistrations": "false",
+   "scrapped_bound_direction": null,
+   "export_bound_direction": null,
+   "method": "no_countable_export_proxy",
+   "confidence_tier": "context_only"
+  },
+  {
+   "year": "2015",
+   "deregistrations_total": "71752",
+   "exported_units_comtrade": null,
+   "scrapped_est_residual": null,
+   "export_proxy_ratio": null,
+   "proxy_exceeds_deregistrations": "false",
+   "scrapped_bound_direction": null,
+   "export_bound_direction": null,
+   "method": "no_countable_export_proxy",
+   "confidence_tier": "context_only"
+  },
+  {
+   "year": "2016",
+   "deregistrations_total": "88317",
+   "exported_units_comtrade": null,
+   "scrapped_est_residual": null,
+   "export_proxy_ratio": null,
+   "proxy_exceeds_deregistrations": "false",
+   "scrapped_bound_direction": null,
+   "export_bound_direction": null,
+   "method": "no_countable_export_proxy",
+   "confidence_tier": "context_only"
+  },
+  {
+   "year": "2017",
+   "deregistrations_total": "80788",
+   "exported_units_comtrade": null,
+   "scrapped_est_residual": null,
+   "export_proxy_ratio": null,
+   "proxy_exceeds_deregistrations": "false",
+   "scrapped_bound_direction": null,
+   "export_bound_direction": null,
+   "method": "no_countable_export_proxy",
+   "confidence_tier": "context_only"
+  },
+  {
+   "year": "2018",
+   "deregistrations_total": "76861",
+   "exported_units_comtrade": null,
+   "scrapped_est_residual": null,
+   "export_proxy_ratio": null,
+   "proxy_exceeds_deregistrations": "false",
+   "scrapped_bound_direction": null,
+   "export_bound_direction": null,
+   "method": "no_countable_export_proxy",
+   "confidence_tier": "context_only"
+  },
+  {
+   "year": "2019",
+   "deregistrations_total": "57561",
+   "exported_units_comtrade": null,
+   "scrapped_est_residual": null,
+   "export_proxy_ratio": null,
+   "proxy_exceeds_deregistrations": "false",
+   "scrapped_bound_direction": null,
+   "export_bound_direction": null,
+   "method": "no_countable_export_proxy",
+   "confidence_tier": "context_only"
+  },
+  {
+   "year": "2020",
+   "deregistrations_total": "40847",
+   "exported_units_comtrade": null,
+   "scrapped_est_residual": null,
+   "export_proxy_ratio": null,
+   "proxy_exceeds_deregistrations": "false",
+   "scrapped_bound_direction": null,
+   "export_bound_direction": null,
+   "method": "no_countable_export_proxy",
+   "confidence_tier": "context_only"
+  },
+  {
+   "year": "2021",
+   "deregistrations_total": "34116",
+   "exported_units_comtrade": null,
+   "scrapped_est_residual": null,
+   "export_proxy_ratio": null,
+   "proxy_exceeds_deregistrations": "false",
+   "scrapped_bound_direction": null,
+   "export_bound_direction": null,
+   "method": "no_countable_export_proxy",
+   "confidence_tier": "context_only"
+  },
+  {
+   "year": "2022",
+   "deregistrations_total": "24938",
+   "exported_units_comtrade": null,
+   "scrapped_est_residual": null,
+   "export_proxy_ratio": null,
+   "proxy_exceeds_deregistrations": "false",
+   "scrapped_bound_direction": null,
+   "export_bound_direction": null,
+   "method": "no_countable_export_proxy",
+   "confidence_tier": "context_only"
+  },
+  {
+   "year": "2023",
+   "deregistrations_total": "29089",
+   "exported_units_comtrade": "38076",
+   "scrapped_est_residual": null,
+   "export_proxy_ratio": "1.309",
+   "proxy_exceeds_deregistrations": "true",
+   "scrapped_bound_direction": null,
+   "export_bound_direction": "upper_bound",
+   "method": "comtrade_hs8703_world_export_upper_bound",
+   "confidence_tier": "low_triangulated_upper_bound"
+  },
+  {
+   "year": "2024",
+   "deregistrations_total": "36137",
+   "exported_units_comtrade": "34769",
+   "scrapped_est_residual": "1368",
+   "export_proxy_ratio": "0.962",
+   "proxy_exceeds_deregistrations": "false",
+   "scrapped_bound_direction": "lower_bound",
+   "export_bound_direction": "upper_bound",
+   "method": "comtrade_hs8703_world_export_upper_bound",
+   "confidence_tier": "low_triangulated_upper_bound"
+  },
+  {
+   "year": "2025",
+   "deregistrations_total": "49550",
+   "exported_units_comtrade": null,
+   "scrapped_est_residual": null,
+   "export_proxy_ratio": null,
+   "proxy_exceeds_deregistrations": "false",
+   "scrapped_bound_direction": null,
+   "export_bound_direction": null,
+   "method": "no_countable_export_proxy",
+   "confidence_tier": "context_only"
+  }
+ ],
+ "material_value": [
+  {
+   "year": "2023",
+   "scrap_share_scenario": "scenario_a",
+   "scrap_share": "0.05",
+   "material": "aluminium",
+   "deregistrations_cars_verified": "29089",
+   "tonnes_low": "105",
+   "tonnes_mid": "168",
+   "tonnes_high": "233",
+   "price_usd_per_tonne_mid": "2255.74",
+   "price_verification": "verified",
+   "value_usd_low": "236222",
+   "value_usd_mid": "377955",
+   "value_usd_high": "524938",
+   "weight_verification": "literature_cited_geo_transfer",
+   "fraction_verification": "literature_cited_geo_transfer",
+   "confidence_tier": "scenario_range_unverified_inputs"
+  },
+  {
+   "year": "2023",
+   "scrap_share_scenario": "scenario_a",
+   "scrap_share": "0.05",
+   "material": "copper",
+   "deregistrations_cars_verified": "29089",
+   "tonnes_low": "21",
+   "tonnes_mid": "37",
+   "tonnes_high": "47",
+   "price_usd_per_tonne_mid": "8490.29",
+   "price_verification": "verified",
+   "value_usd_low": "177821",
+   "value_usd_mid": "312966",
+   "value_usd_high": "395158",
+   "weight_verification": "literature_cited_geo_transfer",
+   "fraction_verification": "literature_cited_geo_transfer",
+   "confidence_tier": "scenario_range_unverified_inputs"
+  },
+  {
+   "year": "2023",
+   "scrap_share_scenario": "scenario_a",
+   "scrap_share": "0.05",
+   "material": "steel",
+   "deregistrations_cars_verified": "29089",
+   "tonnes_low": "960",
+   "tonnes_mid": "1215",
+   "tonnes_high": "1513",
+   "price_usd_per_tonne_mid": "380",
+   "price_verification": "unverified",
+   "value_usd_low": "287981",
+   "value_usd_mid": "461608",
+   "value_usd_high": "680683",
+   "weight_verification": "literature_cited_geo_transfer",
+   "fraction_verification": "literature_cited_geo_transfer",
+   "confidence_tier": "scenario_range_unverified_inputs"
+  },
+  {
+   "year": "2023",
+   "scrap_share_scenario": "scenario_b",
+   "scrap_share": "0.1",
+   "material": "aluminium",
+   "deregistrations_cars_verified": "29089",
+   "tonnes_low": "209",
+   "tonnes_mid": "335",
+   "tonnes_high": "465",
+   "price_usd_per_tonne_mid": "2255.74",
+   "price_verification": "verified",
+   "value_usd_low": "472444",
+   "value_usd_mid": "755910",
+   "value_usd_high": "1049876",
+   "weight_verification": "literature_cited_geo_transfer",
+   "fraction_verification": "literature_cited_geo_transfer",
+   "confidence_tier": "scenario_range_unverified_inputs"
+  },
+  {
+   "year": "2023",
+   "scrap_share_scenario": "scenario_b",
+   "scrap_share": "0.1",
+   "material": "copper",
+   "deregistrations_cars_verified": "29089",
+   "tonnes_low": "42",
+   "tonnes_mid": "74",
+   "tonnes_high": "93",
+   "price_usd_per_tonne_mid": "8490.29",
+   "price_verification": "verified",
+   "value_usd_low": "355643",
+   "value_usd_mid": "625931",
+   "value_usd_high": "790317",
+   "weight_verification": "literature_cited_geo_transfer",
+   "fraction_verification": "literature_cited_geo_transfer",
+   "confidence_tier": "scenario_range_unverified_inputs"
+  },
+  {
+   "year": "2023",
+   "scrap_share_scenario": "scenario_b",
+   "scrap_share": "0.1",
+   "material": "steel",
+   "deregistrations_cars_verified": "29089",
+   "tonnes_low": "1920",
+   "tonnes_mid": "2430",
+   "tonnes_high": "3025",
+   "price_usd_per_tonne_mid": "380",
+   "price_verification": "unverified",
+   "value_usd_low": "575962",
+   "value_usd_mid": "923215",
+   "value_usd_high": "1361365",
+   "weight_verification": "literature_cited_geo_transfer",
+   "fraction_verification": "literature_cited_geo_transfer",
+   "confidence_tier": "scenario_range_unverified_inputs"
+  },
+  {
+   "year": "2023",
+   "scrap_share_scenario": "scenario_c",
+   "scrap_share": "0.25",
+   "material": "aluminium",
+   "deregistrations_cars_verified": "29089",
+   "tonnes_low": "524",
+   "tonnes_mid": "838",
+   "tonnes_high": "1164",
+   "price_usd_per_tonne_mid": "2255.74",
+   "price_verification": "verified",
+   "value_usd_low": "1181110",
+   "value_usd_mid": "1889776",
+   "value_usd_high": "2624689",
+   "weight_verification": "literature_cited_geo_transfer",
+   "fraction_verification": "literature_cited_geo_transfer",
+   "confidence_tier": "scenario_range_unverified_inputs"
+  },
+  {
+   "year": "2023",
+   "scrap_share_scenario": "scenario_c",
+   "scrap_share": "0.25",
+   "material": "copper",
+   "deregistrations_cars_verified": "29089",
+   "tonnes_low": "105",
+   "tonnes_mid": "184",
+   "tonnes_high": "233",
+   "price_usd_per_tonne_mid": "8490.29",
+   "price_verification": "verified",
+   "value_usd_low": "889107",
+   "value_usd_mid": "1564828",
+   "value_usd_high": "1975792",
+   "weight_verification": "literature_cited_geo_transfer",
+   "fraction_verification": "literature_cited_geo_transfer",
+   "confidence_tier": "scenario_range_unverified_inputs"
+  },
+  {
+   "year": "2023",
+   "scrap_share_scenario": "scenario_c",
+   "scrap_share": "0.25",
+   "material": "steel",
+   "deregistrations_cars_verified": "29089",
+   "tonnes_low": "4800",
+   "tonnes_mid": "6074",
+   "tonnes_high": "7563",
+   "price_usd_per_tonne_mid": "380",
+   "price_verification": "unverified",
+   "value_usd_low": "1439905",
+   "value_usd_mid": "2308038",
+   "value_usd_high": "3403413",
+   "weight_verification": "literature_cited_geo_transfer",
+   "fraction_verification": "literature_cited_geo_transfer",
+   "confidence_tier": "scenario_range_unverified_inputs"
+  },
+  {
+   "year": "2023",
+   "scrap_share_scenario": "scenario_d",
+   "scrap_share": "0.5",
+   "material": "aluminium",
+   "deregistrations_cars_verified": "29089",
+   "tonnes_low": "1047",
+   "tonnes_mid": "1676",
+   "tonnes_high": "2327",
+   "price_usd_per_tonne_mid": "2255.74",
+   "price_verification": "verified",
+   "value_usd_low": "2362220",
+   "value_usd_mid": "3779552",
+   "value_usd_high": "5249378",
+   "weight_verification": "literature_cited_geo_transfer",
+   "fraction_verification": "literature_cited_geo_transfer",
+   "confidence_tier": "scenario_range_unverified_inputs"
+  },
+  {
+   "year": "2023",
+   "scrap_share_scenario": "scenario_d",
+   "scrap_share": "0.5",
+   "material": "copper",
+   "deregistrations_cars_verified": "29089",
+   "tonnes_low": "209",
+   "tonnes_mid": "369",
+   "tonnes_high": "465",
+   "price_usd_per_tonne_mid": "8490.29",
+   "price_verification": "verified",
+   "value_usd_low": "1778213",
+   "value_usd_mid": "3129655",
+   "value_usd_high": "3951585",
+   "weight_verification": "literature_cited_geo_transfer",
+   "fraction_verification": "literature_cited_geo_transfer",
+   "confidence_tier": "scenario_range_unverified_inputs"
+  },
+  {
+   "year": "2023",
+   "scrap_share_scenario": "scenario_d",
+   "scrap_share": "0.5",
+   "material": "steel",
+   "deregistrations_cars_verified": "29089",
+   "tonnes_low": "9599",
+   "tonnes_mid": "12148",
+   "tonnes_high": "15126",
+   "price_usd_per_tonne_mid": "380",
+   "price_verification": "unverified",
+   "value_usd_low": "2879811",
+   "value_usd_mid": "4616075",
+   "value_usd_high": "6806826",
+   "weight_verification": "literature_cited_geo_transfer",
+   "fraction_verification": "literature_cited_geo_transfer",
+   "confidence_tier": "scenario_range_unverified_inputs"
+  },
+  {
+   "year": "2024",
+   "scrap_share_scenario": "floor_anchor_2024",
+   "scrap_share": "0.0379",
+   "material": "aluminium",
+   "deregistrations_cars_verified": "36137",
+   "tonnes_low": "99",
+   "tonnes_mid": "158",
+   "tonnes_high": "219",
+   "price_usd_per_tonne_mid": "2419.02",
+   "price_verification": "verified",
+   "value_usd_low": "238541",
+   "value_usd_mid": "381666",
+   "value_usd_high": "530091",
+   "weight_verification": "literature_cited_geo_transfer",
+   "fraction_verification": "literature_cited_geo_transfer",
+   "confidence_tier": "scenario_range_unverified_inputs"
+  },
+  {
+   "year": "2024",
+   "scrap_share_scenario": "floor_anchor_2024",
+   "scrap_share": "0.0379",
+   "material": "copper",
+   "deregistrations_cars_verified": "36137",
+   "tonnes_low": "20",
+   "tonnes_mid": "35",
+   "tonnes_high": "44",
+   "price_usd_per_tonne_mid": "9142.14",
+   "price_verification": "verified",
+   "value_usd_low": "180302",
+   "value_usd_mid": "317332",
+   "value_usd_high": "400672",
+   "weight_verification": "literature_cited_geo_transfer",
+   "fraction_verification": "literature_cited_geo_transfer",
+   "confidence_tier": "scenario_range_unverified_inputs"
+  },
+  {
+   "year": "2024",
+   "scrap_share_scenario": "floor_anchor_2024",
+   "scrap_share": "0.0379",
+   "material": "steel",
+   "deregistrations_cars_verified": "36137",
+   "tonnes_low": "904",
+   "tonnes_mid": "1144",
+   "tonnes_high": "1424",
+   "price_usd_per_tonne_mid": "380",
+   "price_verification": "unverified",
+   "value_usd_low": "271179",
+   "value_usd_mid": "434676",
+   "value_usd_high": "640969",
+   "weight_verification": "literature_cited_geo_transfer",
+   "fraction_verification": "literature_cited_geo_transfer",
+   "confidence_tier": "scenario_range_unverified_inputs"
+  },
+  {
+   "year": "2024",
+   "scrap_share_scenario": "scenario_a",
+   "scrap_share": "0.05",
+   "material": "aluminium",
+   "deregistrations_cars_verified": "36137",
+   "tonnes_low": "130",
+   "tonnes_mid": "208",
+   "tonnes_high": "289",
+   "price_usd_per_tonne_mid": "2419.02",
+   "price_verification": "verified",
+   "value_usd_low": "314698",
+   "value_usd_mid": "503517",
+   "value_usd_high": "699329",
+   "weight_verification": "literature_cited_geo_transfer",
+   "fraction_verification": "literature_cited_geo_transfer",
+   "confidence_tier": "scenario_range_unverified_inputs"
+  },
+  {
+   "year": "2024",
+   "scrap_share_scenario": "scenario_a",
+   "scrap_share": "0.05",
+   "material": "copper",
+   "deregistrations_cars_verified": "36137",
+   "tonnes_low": "26",
+   "tonnes_mid": "46",
+   "tonnes_high": "58",
+   "price_usd_per_tonne_mid": "9142.14",
+   "price_verification": "verified",
+   "value_usd_low": "237866",
+   "value_usd_mid": "418644",
+   "value_usd_high": "528591",
+   "weight_verification": "literature_cited_geo_transfer",
+   "fraction_verification": "literature_cited_geo_transfer",
+   "confidence_tier": "scenario_range_unverified_inputs"
+  },
+  {
+   "year": "2024",
+   "scrap_share_scenario": "scenario_a",
+   "scrap_share": "0.05",
+   "material": "steel",
+   "deregistrations_cars_verified": "36137",
+   "tonnes_low": "1193",
+   "tonnes_mid": "1509",
+   "tonnes_high": "1879",
+   "price_usd_per_tonne_mid": "380",
+   "price_verification": "unverified",
+   "value_usd_low": "357756",
+   "value_usd_mid": "573451",
+   "value_usd_high": "845606",
+   "weight_verification": "literature_cited_geo_transfer",
+   "fraction_verification": "literature_cited_geo_transfer",
+   "confidence_tier": "scenario_range_unverified_inputs"
+  },
+  {
+   "year": "2024",
+   "scrap_share_scenario": "scenario_b",
+   "scrap_share": "0.1",
+   "material": "aluminium",
+   "deregistrations_cars_verified": "36137",
+   "tonnes_low": "260",
+   "tonnes_mid": "416",
+   "tonnes_high": "578",
+   "price_usd_per_tonne_mid": "2419.02",
+   "price_verification": "verified",
+   "value_usd_low": "629396",
+   "value_usd_mid": "1007034",
+   "value_usd_high": "1398658",
+   "weight_verification": "literature_cited_geo_transfer",
+   "fraction_verification": "literature_cited_geo_transfer",
+   "confidence_tier": "scenario_range_unverified_inputs"
+  },
+  {
+   "year": "2024",
+   "scrap_share_scenario": "scenario_b",
+   "scrap_share": "0.1",
+   "material": "copper",
+   "deregistrations_cars_verified": "36137",
+   "tonnes_low": "52",
+   "tonnes_mid": "92",
+   "tonnes_high": "116",
+   "price_usd_per_tonne_mid": "9142.14",
+   "price_verification": "verified",
+   "value_usd_low": "475732",
+   "value_usd_mid": "837288",
+   "value_usd_high": "1057182",
+   "weight_verification": "literature_cited_geo_transfer",
+   "fraction_verification": "literature_cited_geo_transfer",
+   "confidence_tier": "scenario_range_unverified_inputs"
+  },
+  {
+   "year": "2024",
+   "scrap_share_scenario": "scenario_b",
+   "scrap_share": "0.1",
+   "material": "steel",
+   "deregistrations_cars_verified": "36137",
+   "tonnes_low": "2385",
+   "tonnes_mid": "3018",
+   "tonnes_high": "3758",
+   "price_usd_per_tonne_mid": "380",
+   "price_verification": "unverified",
+   "value_usd_low": "715513",
+   "value_usd_mid": "1146902",
+   "value_usd_high": "1691212",
+   "weight_verification": "literature_cited_geo_transfer",
+   "fraction_verification": "literature_cited_geo_transfer",
+   "confidence_tier": "scenario_range_unverified_inputs"
+  },
+  {
+   "year": "2024",
+   "scrap_share_scenario": "scenario_c",
+   "scrap_share": "0.25",
+   "material": "aluminium",
+   "deregistrations_cars_verified": "36137",
+   "tonnes_low": "650",
+   "tonnes_mid": "1041",
+   "tonnes_high": "1445",
+   "price_usd_per_tonne_mid": "2419.02",
+   "price_verification": "verified",
+   "value_usd_low": "1573490",
+   "value_usd_mid": "2517584",
+   "value_usd_high": "3496645",
+   "weight_verification": "literature_cited_geo_transfer",
+   "fraction_verification": "literature_cited_geo_transfer",
+   "confidence_tier": "scenario_range_unverified_inputs"
+  },
+  {
+   "year": "2024",
+   "scrap_share_scenario": "scenario_c",
+   "scrap_share": "0.25",
+   "material": "copper",
+   "deregistrations_cars_verified": "36137",
+   "tonnes_low": "130",
+   "tonnes_mid": "229",
+   "tonnes_high": "289",
+   "price_usd_per_tonne_mid": "9142.14",
+   "price_verification": "verified",
+   "value_usd_low": "1189330",
+   "value_usd_mid": "2093221",
+   "value_usd_high": "2642956",
+   "weight_verification": "literature_cited_geo_transfer",
+   "fraction_verification": "literature_cited_geo_transfer",
+   "confidence_tier": "scenario_range_unverified_inputs"
+  },
+  {
+   "year": "2024",
+   "scrap_share_scenario": "scenario_c",
+   "scrap_share": "0.25",
+   "material": "steel",
+   "deregistrations_cars_verified": "36137",
+   "tonnes_low": "5963",
+   "tonnes_mid": "7545",
+   "tonnes_high": "9396",
+   "price_usd_per_tonne_mid": "380",
+   "price_verification": "unverified",
+   "value_usd_low": "1788782",
+   "value_usd_mid": "2867254",
+   "value_usd_high": "4228029",
+   "weight_verification": "literature_cited_geo_transfer",
+   "fraction_verification": "literature_cited_geo_transfer",
+   "confidence_tier": "scenario_range_unverified_inputs"
+  },
+  {
+   "year": "2024",
+   "scrap_share_scenario": "scenario_d",
+   "scrap_share": "0.5",
+   "material": "aluminium",
+   "deregistrations_cars_verified": "36137",
+   "tonnes_low": "1301",
+   "tonnes_mid": "2081",
+   "tonnes_high": "2891",
+   "price_usd_per_tonne_mid": "2419.02",
+   "price_verification": "verified",
+   "value_usd_low": "3146981",
+   "value_usd_mid": "5035169",
+   "value_usd_high": "6993290",
+   "weight_verification": "literature_cited_geo_transfer",
+   "fraction_verification": "literature_cited_geo_transfer",
+   "confidence_tier": "scenario_range_unverified_inputs"
+  },
+  {
+   "year": "2024",
+   "scrap_share_scenario": "scenario_d",
+   "scrap_share": "0.5",
+   "material": "copper",
+   "deregistrations_cars_verified": "36137",
+   "tonnes_low": "260",
+   "tonnes_mid": "458",
+   "tonnes_high": "578",
+   "price_usd_per_tonne_mid": "9142.14",
+   "price_verification": "verified",
+   "value_usd_low": "2378660",
+   "value_usd_mid": "4186442",
+   "value_usd_high": "5285912",
+   "weight_verification": "literature_cited_geo_transfer",
+   "fraction_verification": "literature_cited_geo_transfer",
+   "confidence_tier": "scenario_range_unverified_inputs"
+  },
+  {
+   "year": "2024",
+   "scrap_share_scenario": "scenario_d",
+   "scrap_share": "0.5",
+   "material": "steel",
+   "deregistrations_cars_verified": "36137",
+   "tonnes_low": "11925",
+   "tonnes_mid": "15091",
+   "tonnes_high": "18791",
+   "price_usd_per_tonne_mid": "380",
+   "price_verification": "unverified",
+   "value_usd_low": "3577563",
+   "value_usd_mid": "5734508",
+   "value_usd_high": "8456058",
+   "weight_verification": "literature_cited_geo_transfer",
+   "fraction_verification": "literature_cited_geo_transfer",
+   "confidence_tier": "scenario_range_unverified_inputs"
+  }
+ ],
+ "reconciliation": {
+  "cells_matched": 77,
+  "cells_total": 77,
+  "years": "2015-2025"
+ },
+ "factors": {
+  "weight": {
+   "low": 1.2,
+   "mid": 1.44,
+   "high": 1.6,
+   "status": "literature_cited_geo_transfer"
+  },
+  "fraction": {
+   "steel": {
+    "low": 0.55,
+    "mid": 0.58,
+    "high": 0.65,
+    "status": "literature_cited_geo_transfer"
+   },
+   "aluminium": {
+    "low": 0.06,
+    "mid": 0.08,
+    "high": 0.1,
+    "status": "literature_cited_geo_transfer"
+   },
+   "copper": {
+    "low": 0.012,
+    "mid": 0.0176,
+    "high": 0.02,
+    "status": "literature_cited_geo_transfer"
+   }
+  },
+  "price": {
+   "steel": {
+    "2023": {
+     "low": 300.0,
+     "mid": 380.0,
+     "high": 450.0,
+     "status": "unverified"
+    },
+    "2024": {
+     "low": 300.0,
+     "mid": 380.0,
+     "high": 450.0,
+     "status": "unverified"
+    }
+   },
+   "aluminium": {
+    "2023": {
+     "low": 2255.74,
+     "mid": 2255.74,
+     "high": 2255.74,
+     "status": "verified"
+    },
+    "2024": {
+     "low": 2419.02,
+     "mid": 2419.02,
+     "high": 2419.02,
+     "status": "verified"
+    }
+   },
+   "copper": {
+    "2023": {
+     "low": 8490.29,
+     "mid": 8490.29,
+     "high": 8490.29,
+     "status": "verified"
+    },
+    "2024": {
+     "low": 9142.14,
+     "mid": 9142.14,
+     "high": 9142.14,
+     "status": "verified"
+    }
+   }
+  },
+  "dereg": {
+   "2023": 29089,
+   "2024": 36137
+  }
+ },
+ "floor_anchor_share_2024": 0.0379
+}
