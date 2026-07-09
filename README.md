@@ -46,16 +46,33 @@ reasoning, trust boundaries, and capstone generalization: **[`DECISIONS.md`](DEC
 
 ### Deploy steps (owner)
 
-1. **Create a read-only service account** on the GCP project:
+1. **Create a read-only service account** on the GCP project. Two grants are
+   needed; they live at different levels and both are required:
    ```
    gcloud iam service-accounts create sg-elv-dashboard-ro \
      --project=msbai-dwd-aa13072 --display-name="SG-ELV dashboard read-only"
-   # dataset-scoped read + ability to run query jobs, nothing else:
-   bq add-iam-policy-binding --member="serviceAccount:sg-elv-dashboard-ro@msbai-dwd-aa13072.iam.gserviceaccount.com" \
-     --role="roles/bigquery.dataViewer" msbai-dwd-aa13072:sg_elv
+   ```
+   **Grant A — dataset-level read** (`roles/bigquery.dataViewer` on `sg_elv`).
+   Note: `bq add-iam-policy-binding` does NOT support datasets (tables/views
+   only) — use the console: *BigQuery → sg_elv → Sharing → Permissions → Add
+   principal → `sg-elv-dashboard-ro@msbai-dwd-aa13072.iam.gserviceaccount.com`
+   → role "BigQuery Data Viewer"*. CLI alternative:
+   ```
+   bq show --format=prettyjson msbai-dwd-aa13072:sg_elv > /tmp/sg_elv_acl.json
+   # edit: append to the "access" array:
+   #   {"role": "READER", "userByEmail": "sg-elv-dashboard-ro@msbai-dwd-aa13072.iam.gserviceaccount.com"}
+   bq update --source /tmp/sg_elv_acl.json msbai-dwd-aa13072:sg_elv
+   ```
+   **Grant B — PROJECT-level query permission** (`roles/bigquery.jobUser` —
+   lets the SA run queries; it is invisible to the dataset-ACL pre-flight
+   check, so don't skip it):
+   ```
    gcloud projects add-iam-policy-binding msbai-dwd-aa13072 \
      --member="serviceAccount:sg-elv-dashboard-ro@msbai-dwd-aa13072.iam.gserviceaccount.com" \
      --role="roles/bigquery.jobUser"
+   ```
+   Then mint the key (goes only into Streamlit Secrets, never the repo):
+   ```
    gcloud iam service-accounts keys create key.json \
      --iam-account=sg-elv-dashboard-ro@msbai-dwd-aa13072.iam.gserviceaccount.com
    ```
