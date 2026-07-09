@@ -75,6 +75,15 @@ So the product presents:
 - Domain context (Singapore as a used-car export hub) appears only as labeled
   `unverified` context.
 
+**Comtrade cross-check scope** (*locked 2026-07-08*): the Comtrade
+triangulation is a **spot cross-check limited to qty-available years — 2023
+and 2024** for the analysis window (`qty` is broken in 2022 and 2025: zero
+units against 15–19 kt of net weight; earlier qty years exist but predate the
+analysis window and carry the same re-export conflation). FOB value is the
+only field spanning all of 2005–2025, and **no stage may compare FOB dollars
+to vehicle counts on the same axis** — value-only years are **labeled
+context, not a series**.
+
 ## Why trustworthy — and where not
 
 | Layer | Trust basis | Where it breaks |
