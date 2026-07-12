@@ -1,17 +1,14 @@
 # The Global ELV Recycling Gap — Singapore pilot
 
+**Live dashboard:** **<https://elv-capstone-practice-dwd-homework2.streamlit.app/>**
+— serves the **committed snapshot** (verified equal to live, pre-flight Gate 2)
+because the NYU org perimeter blocks external BigQuery reads.
+
 **DWD Assignment 2 — an end-to-end data product.** Singapore Land Transport
 Authority vehicle registration / deregistration / population data → BigQuery
 (`sg_elv`) → a public Streamlit dashboard quantifying Singapore's annual
 end-of-life-vehicle (ELV) stream and the recoverable material value at risk.
-
-**Live dashboard:** **<https://elv-capstone-practice-dwd-homework2.streamlit.app/>**
-(Streamlit Community Cloud — NYU blocks public Cloud Run). The app serves the
-**committed snapshot**: live BigQuery reads are blocked by the NYU org network
-perimeter even with correct IAM, and the deploy pre-flight (Gate 2,
-`verification/checkpoint_d_preflight.md`) proved the snapshot equals the live
-tables **field-for-field** — a transparent, verified fallback, not a data
-compromise.
+Hosted on Streamlit Community Cloud (NYU blocks public Cloud Run).
 
 ## What the headline measures — and its limits
 
@@ -92,11 +89,19 @@ The app reads BigQuery live (cached with `@st.cache_data`); if secrets are
 absent it falls back to the committed `dashboard/snapshot.json` so it always
 renders.
 
-## Pipeline layers (`sg_elv` on `msbai-dwd-aa13072`, BigQuery US)
+## Reproduce (project `msbai-dwd-aa13072`, dataset `sg_elv`, BigQuery US)
 
-`data/landing/` (raw untouched JSON/XLSX + `manifest.jsonl` provenance) →
-`raw_*` tables (verbatim) → `clean_*` views (unpivot, taxonomy era rule,
-suppressed-cells rule) → analysis-ready: `fact_vehicle_flows`,
-`fact_population_by_type`, `elv_disposal_split`, `elv_material_value`. Every
-stage has committed checks in [`verification/`](verification/). Project memory
-and decision log: [`CLAUDE.md`](CLAUDE.md).
+Layers: `data/landing/` (raw untouched JSON/XLSX + `manifest.jsonl`
+provenance) → `raw_*` tables (verbatim) → `clean_vehicle_flows` /
+`clean_population_by_type` / `clean_comtrade_exports` views (unpivot,
+taxonomy era rule, suppressed-cells rule) → analysis-ready:
+`fact_vehicle_flows`, `fact_population_by_type`, `elv_disposal_split`,
+`elv_material_value`.
+
+**Run the scripts in `verification/` to reproduce every number** — each
+layer's checks are committed alongside their results (`verification/*.md`).
+Rebuild the pipeline itself with `scripts/fetch_landing.py` →
+`scripts/load_raw.py` → `scripts/build_clean_views.py` →
+`scripts/build_analysis_ready.py` → `scripts/build_material_value.py`.
+Project memory and decision log: [`CLAUDE.md`](CLAUDE.md) · narrative record:
+[`DECISIONS.md`](DECISIONS.md).
