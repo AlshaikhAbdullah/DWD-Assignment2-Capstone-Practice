@@ -5,8 +5,13 @@ Authority vehicle registration / deregistration / population data → BigQuery
 (`sg_elv`) → a public Streamlit dashboard quantifying Singapore's annual
 end-of-life-vehicle (ELV) stream and the recoverable material value at risk.
 
-**Live dashboard:** _pending deploy — URL added here once published to
-Streamlit Community Cloud_ (NYU blocks public Cloud Run).
+**Live dashboard:** **<https://elv-capstone-practice-dwd-homework2.streamlit.app/>**
+(Streamlit Community Cloud — NYU blocks public Cloud Run). The app serves the
+**committed snapshot**: live BigQuery reads are blocked by the NYU org network
+perimeter even with correct IAM, and the deploy pre-flight (Gate 2,
+`verification/checkpoint_d_preflight.md`) proved the snapshot equals the live
+tables **field-for-field** — a transparent, verified fallback, not a data
+compromise.
 
 ## What the headline measures — and its limits
 

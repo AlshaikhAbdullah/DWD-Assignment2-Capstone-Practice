@@ -79,7 +79,10 @@ def load(st=None):
         try:
             if "gcp_service_account" in st.secrets:
                 return _bq_live(st.secrets)
-        except Exception as e:  # missing secrets, network, lib — degrade gracefully
-            st.warning(f"Live BigQuery unavailable ({type(e).__name__}); "
-                       "showing the committed snapshot.")
+        except Exception:  # org-perimeter block, missing secrets, network, lib
+            # NYU's org network perimeter blocks live reads even with correct
+            # IAM (see DECISIONS.md, Checkpoint D serving-mode decision).
+            st.info("Live BigQuery blocked by org network policy — showing "
+                    "committed snapshot (verified equal to live: see "
+                    "verification/checkpoint_d_preflight.md, Gate 2).")
     return load_snapshot()
