@@ -9,5 +9,6 @@ Exercised 32 rendered states (2 years × 10 slider steps + all static blocks).
 - PASS [no-broken-export-count] no export count for 2022/2025; Act-2 chart uses 2023/2024 only
 - PASS [band-ties-to-table] continuous band reproduces material_value at all 9 committed scenarios
 - PASS [value-gated] value $ is inside a collapsed expander behind an off-by-default checkbox
+- PASS [no-stray-markup] no HTML comments or tag-like markup in any rendered state
 
 **RESULT: pre-deploy scan PASS — safe to publish**
