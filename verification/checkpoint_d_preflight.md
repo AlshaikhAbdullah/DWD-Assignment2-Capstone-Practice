@@ -13,6 +13,7 @@
 - PASS — material_value: 27 live rows == snapshot
 
 ## Gate 3 — read-only dashboard SA can read sg_elv
-- SKIPPED — sg-elv-dashboard-ro@msbai-dwd-aa13072.iam.gserviceaccount.com not yet in the dataset ACL. Rerun with --require-sa after the owner mints and grants it.
+- PASS — dashboard SA in dataset ACL: sg-elv-dashboard-ro@msbai-dwd-aa13072.iam.gserviceaccount.com present with role(s) ['READER']
+  (jobUser at project level cannot be read from here — owner-confirmed; the live app will prove it end-to-end on first load)
 
-**RESULT: pre-flight PASS** (SA gate pending owner mint — rerun with --require-sa)
+**RESULT: pre-flight PASS**
