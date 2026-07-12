@@ -151,6 +151,20 @@ steel-scrap price (placeholders PENDING CITATION). No point-estimate column
 exists; checks enforce strict low<mid<high. Input provenance:
 `data/reference/material_value_inputs.csv`.
 
+**Serving mode: committed snapshot — decided 2026-07-10 (Checkpoint D).**
+Live BigQuery reads from the deployed app are **blocked by the NYU org
+network perimeter** (Forbidden persists with both grants correct and
+confirmed — dataViewer on `sg_elv` + project-level jobUser — i.e. a
+VPC-SC/access-boundary wall that IAM cannot fix; the same class of
+institutional constraint that ruled out public Cloud Run). The app therefore
+serves the **committed snapshot**, and this is a *verified* fallback, not a
+data compromise: deploy pre-flight Gate 2 proved the snapshot equals the
+live analysis-ready tables **field-for-field** (36 yearly + 433 monthly +
+21 disposal-split + 27 material-value rows), and the snapshot regenerates
+from BigQuery via a committed script whenever the pipeline updates. The
+in-app banner states the mode plainly: *"Live BigQuery blocked by org
+network policy — showing committed snapshot (verified equal to live)."*
+
 ## Why trustworthy — and where not
 
 | Layer | Trust basis | Where it breaks |
